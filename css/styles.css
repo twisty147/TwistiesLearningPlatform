@@ -58,3 +58,18 @@
 #hidden-modal {
     display: none;
   }
+
+  .card {
+    border: none; /* Removes border from cards */
+    transition: transform 0.2s ease; /* Adds smooth transition effect */
+  }
+  
+  /* Card hover effect */
+  .card:hover {
+    transform: translateY(-5px); /* Moves card up slightly on hover */
+  }
+  
+  /* Styles for card text */
+  .card-text {
+    margin-bottom: 10px; /* Adds margin to bottom of card text */
+  }
