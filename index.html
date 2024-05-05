@@ -43,17 +43,53 @@
     <!-- Navbar End -->
 
     <!-- Jumbotron/Featured Content -->
-  <div class="jumbotron">
-    <div class="container">
-      <h1 class="display-4">Welcome to the Twisties Learning Platform</h1>
-      <p class="lead">Learn STEM subjects in an interactive and engaging way!</p>
-      <hr class="my-4">
-      <p>Start your journey now!</p>
-      <a class="btn btn-primary btn-lg" href="courses.html" role="button">Explore Now</a>
+    <div class="jumbotron">
+        <div class="container">
+            <h1 class="display-4">Welcome to the Twisties Learning Platform</h1>
+            <p class="lead">Learn STEM subjects in an interactive and engaging way!</p>
+            <hr class="my-4">
+            <p>Start your journey now!</p>
+            <a class="btn btn-primary btn-lg" href="courses.html" role="button">Explore Now</a>
+        </div>
     </div>
-  </div>
-<!-- Jumbotron/Featured ContentEnd-->
+    <!-- Jumbotron/Featured ContentEnd-->
 
+    <!-- Main Content Section -->
+    <div class="container">
+        <div class="row">
+            <div class="col-md-8">
+                <!-- Dictionary Section -->
+                <div class="card mb-4">
+                    <div class="card-body">
+                        <h2 class="card-title">Dictionary</h2>
+                        <p class="card-text">Use the dictionary to look up the definitions, phonetics, and meanings of
+                            words.</p>
+                        <p class="card-text">Simply enter a word in the search field below and click the "Search"
+                            button.</p>
+                        <form id="dictionaryForm" class="form-inline">
+                            <div class="input-group">
+                                <input id="dictionaryInput" class="form-control" type="search"
+                                    placeholder="Enter a word" aria-label="Enter a word">
+                                <div class="input-group-append">
+                                    <button id="dictionaryButton" class="btn btn-primary" type="button"
+                                        onclick="searchWord()">Search</button>
+                                </div>
+                            </div>
+                        </form>
+
+                        <!-- Button trigger modal -->
+                        <button type="button" id=hidden-modal class="btn btn-primary" data-toggle="modal"
+                            data-target="#dictionaryModal" id="openModalButton">
+                            Launch modal
+                        </button>
+                    </div>
+                </div>
+                <!-- Dictionary Section End-->
+
+                
+            </div>
+        </div>
+    </div>
 
 </body>
 

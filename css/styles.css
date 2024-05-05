@@ -41,3 +41,15 @@
         background: linear-gradient(to right, #b5c6d6, #ffffff);
     }
 }
+
+/* Styles for search button */
+#dictionaryButton {
+    border-top-left-radius: 0; /* Adjusts border radius */
+    border-bottom-left-radius: 0; /* Adjusts border radius */
+  }
+  
+  /* Styles for search input */
+  #dictionaryInput {
+    border-top-right-radius: 0; /* Adjusts border radius */
+    border-bottom-right-radius: 0; /* Adjusts border radius */
+  }
