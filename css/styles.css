@@ -1,0 +1,8 @@
+/* 
+   .navbar-brand img ensures the maximum height of the logo image within the navbar is 50px,
+   allowing for proper scaling.
+*/
+.navbar-brand img {
+    max-height: 50px; /* Sets the maximum height of the logo */
+    width: auto; /* Allows the width to adjust proportionally */
+  }
