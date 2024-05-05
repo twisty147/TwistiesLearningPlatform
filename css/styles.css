@@ -3,6 +3,41 @@
    allowing for proper scaling.
 */
 .navbar-brand img {
-    max-height: 50px; /* Sets the maximum height of the logo */
-    width: auto; /* Allows the width to adjust proportionally */
-  }
+      /* Sets the maximum height of the logo */
+    max-height: 50px;
+     /* Allows the width to adjust proportionally */
+    width: auto;
+}
+
+/* 
+   Jumbotron:
+   Defines initial background color and padding for the jumbotron class.
+   Applies a gradient animation that smoothly transitions between colors 
+   using keyframes.
+*/
+.jumbotron {
+    /* Sets initial background color */
+    background-color: #f8f9fa;
+    /* Adds padding to the jumbotron */
+    padding: 3rem 1.5rem;
+      /* Applies gradient animation */
+    animation: gradientAnimation 10s infinite alternate;
+}
+
+/* Keyframes for gradient animation*/
+@keyframes gradientAnimation {
+    0% {
+        /* Start color */
+        background: linear-gradient(to right, #b5c6d6, #ffffff);
+    }
+
+    50% {
+        /* Middle color */
+        background: linear-gradient(to right, #ffffff, #b5c6d6);
+    }
+
+    100% {
+         /* End color */
+        background: linear-gradient(to right, #b5c6d6, #ffffff);
+    }
+}
