@@ -85,6 +85,10 @@
   float: right; /* Aligns checkmark to the right */
   color: green; /* Sets color of checkmark */
 }
+  /* CSS for iframe */
+.embed-responsive iframe {
+  border: 0;
+}
 
 /* Media query for screens smaller than 767px */
 @media (max-width: 767px) {
