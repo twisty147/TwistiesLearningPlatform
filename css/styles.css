@@ -73,3 +73,29 @@
   .card-text {
     margin-bottom: 10px; /* Adds margin to bottom of card text */
   }
+
+  /* Styles for course topics list items */
+#courseTopics li {
+  cursor: pointer; /* Changes cursor to pointer for list items */
+}
+
+/* Styles for watched list items */
+.list-group-item.watched::after {
+  content: '\2713'; /* Adds checkmark symbol after text */
+  float: right; /* Aligns checkmark to the right */
+  color: green; /* Sets color of checkmark */
+}
+
+/* Media query for screens smaller than 767px */
+@media (max-width: 767px) {
+  .container {
+    margin-bottom: 120px; /* Adjusts margin-bottom to accommodate footer */
+  }
+}
+
+/* Media query for screens smaller than 768px */
+@media (max-width: 768px) {
+  .navbar-brand img {
+    display: none; /* Hides the logo for screens smaller than 768px */
+  }
+}
