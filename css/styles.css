@@ -3,10 +3,10 @@
    allowing for proper scaling.
 */
 .navbar-brand img {
-      /* Sets the maximum height of the logo */
-    max-height: 50px;
-     /* Allows the width to adjust proportionally */
-    width: auto;
+  /* Sets the maximum height of the logo */
+  max-height: 50px;
+  /* Allows the width to adjust proportionally */
+  width: auto;
 }
 
 /* 
@@ -16,76 +16,89 @@
    using keyframes.
 */
 .jumbotron {
-    /* Sets initial background color */
-    background-color: #f8f9fa;
-    /* Adds padding to the jumbotron */
-    padding: 3rem 1.5rem;
-      /* Applies gradient animation */
-    animation: gradientAnimation 10s infinite alternate;
+  /* Sets initial background color */
+  background-color: #f8f9fa;
+  /* Adds padding to the jumbotron */
+  padding: 3rem 1.5rem;
+  /* Applies gradient animation */
+  animation: gradientAnimation 10s infinite alternate;
 }
 
 /* Keyframes for gradient animation*/
 @keyframes gradientAnimation {
-    0% {
-        /* Start color */
-        background: linear-gradient(to right, #b5c6d6, #ffffff);
-    }
+  0% {
+    /* Start color */
+    background: linear-gradient(to right, #b5c6d6, #ffffff);
+  }
 
-    50% {
-        /* Middle color */
-        background: linear-gradient(to right, #ffffff, #b5c6d6);
-    }
+  50% {
+    /* Middle color */
+    background: linear-gradient(to right, #ffffff, #b5c6d6);
+  }
 
-    100% {
-         /* End color */
-        background: linear-gradient(to right, #b5c6d6, #ffffff);
-    }
+  100% {
+    /* End color */
+    background: linear-gradient(to right, #b5c6d6, #ffffff);
+  }
 }
 
 /* Styles for search button */
 #dictionaryButton {
-    border-top-left-radius: 0; /* Adjusts border radius */
-    border-bottom-left-radius: 0; /* Adjusts border radius */
-  }
-  
-  /* Styles for search input */
-  #dictionaryInput {
-    border-top-right-radius: 0; /* Adjusts border radius */
-    border-bottom-right-radius: 0; /* Adjusts border radius */
-  }
+  border-top-left-radius: 0;
+  /* Adjusts border radius */
+  border-bottom-left-radius: 0;
+  /* Adjusts border radius */
+}
 
-  /*Hidden Modal for dictionary results*/
+/* Styles for search input */
+#dictionaryInput {
+  border-top-right-radius: 0;
+  /* Adjusts border radius */
+  border-bottom-right-radius: 0;
+  /* Adjusts border radius */
+}
+
+/*Hidden Modal for dictionary results*/
 #hidden-modal {
-    display: none;
-  }
+  display: none;
+}
 
-  .card {
-    border: none; /* Removes border from cards */
-    transition: transform 0.2s ease; /* Adds smooth transition effect */
-  }
-  
-  /* Card hover effect */
-  .card:hover {
-    transform: translateY(-5px); /* Moves card up slightly on hover */
-  }
-  
-  /* Styles for card text */
-  .card-text {
-    margin-bottom: 10px; /* Adds margin to bottom of card text */
-  }
+.card {
+  border: none;
+  /* Removes border from cards */
+  transition: transform 0.2s ease;
+  /* Adds smooth transition effect */
+}
 
-  /* Styles for course topics list items */
+/* Card hover effect */
+.card:hover {
+  transform: translateY(-5px);
+  /* Moves card up slightly on hover */
+}
+
+/* Styles for card text */
+.card-text {
+  margin-bottom: 10px;
+  /* Adds margin to bottom of card text */
+}
+
+/* Styles for course topics list items */
 #courseTopics li {
-  cursor: pointer; /* Changes cursor to pointer for list items */
+  cursor: pointer;
+  /* Changes cursor to pointer for list items */
 }
 
 /* Styles for watched list items */
 .list-group-item.watched::after {
-  content: '\2713'; /* Adds checkmark symbol after text */
-  float: right; /* Aligns checkmark to the right */
-  color: green; /* Sets color of checkmark */
+  content: '\2713';
+  /* Adds checkmark symbol after text */
+  float: right;
+  /* Aligns checkmark to the right */
+  color: green;
+  /* Sets color of checkmark */
 }
-  /* CSS for iframe */
+
+/* CSS for iframe */
 .embed-responsive iframe {
   border: 0;
 }
@@ -93,13 +106,15 @@
 /* Media query for screens smaller than 767px */
 @media (max-width: 767px) {
   .container {
-    margin-bottom: 120px; /* Adjusts margin-bottom to accommodate footer */
+    margin-bottom: 120px;
+    /* Adjusts margin-bottom to accommodate footer */
   }
 }
 
 /* Media query for screens smaller than 768px */
 @media (max-width: 768px) {
   .navbar-brand img {
-    display: none; /* Hides the logo for screens smaller than 768px */
+    display: none;
+    /* Hides the logo for screens smaller than 768px */
   }
 }

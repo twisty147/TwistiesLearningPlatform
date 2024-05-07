@@ -1,37 +1,50 @@
 /* Set background color for the body */
 body {
-    background-color: #f8f9fa;
-  }
-  
-  /* Style for the container holding the quiz */
-  .container {
-    background-color: #fff; /* White background */
-    padding: 30px; /* Padding around the container */
-    border-radius: 10px; /* Rounded corners */
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Box shadow for a subtle effect */
-  }
-  
-  /* Style for the quiz title */
-  .quiz-title {
-    text-align: center; /* Center-align the title */
-    margin-bottom: 30px; /* Add some bottom margin for spacing */
-  }
-  
-  /* Style for the quiz form */
-  .quiz-form {
-    max-width: 600px; /* Set maximum width for the form */
-    margin: auto; /* Center the form horizontally */
-  }
-  
-  /* Style for the quiz results (to be displayed after submission) */
-  .quiz-results {
-    display: none; /* Initially hide the quiz results */
-    text-align: center; /* Center-align the results */
-    margin-top: 30px; /* Add some top margin for spacing */
-  }
-  
-  /* Style for the navbar brand logo */
-  .navbar-brand img {
-    max-height: 50px; /* Sets the maximum height of the logo */
-    width: auto; /* Allows the width to adjust proportionally */
-  }
+  background-color: #f8f9fa;
+}
+
+/* Style for the container holding the quiz */
+.container {
+  background-color: #fff;
+  /* White background */
+  padding: 30px;
+  /* Padding around the container */
+  border-radius: 10px;
+  /* Rounded corners */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  /* Box shadow for a subtle effect */
+}
+
+/* Style for the quiz title */
+.quiz-title {
+  text-align: center;
+  /* Center-align the title */
+  margin-bottom: 30px;
+  /* Add some bottom margin for spacing */
+}
+
+/* Style for the quiz form */
+.quiz-form {
+  max-width: 600px;
+  /* Set maximum width for the form */
+  margin: auto;
+  /* Center the form horizontally */
+}
+
+/* Style for the quiz results (to be displayed after submission) */
+.quiz-results {
+  display: none;
+  /* Initially hide the quiz results */
+  text-align: center;
+  /* Center-align the results */
+  margin-top: 30px;
+  /* Add some top margin for spacing */
+}
+
+/* Style for the navbar brand logo */
+.navbar-brand img {
+  max-height: 50px;
+  /* Sets the maximum height of the logo */
+  width: auto;
+  /* Allows the width to adjust proportionally */
+}

@@ -420,6 +420,102 @@ function populateCEQuestions() {
         <label for="q5_option4">To manage water resources</label><br>
     </div>
     <button type="button" id="submitQuizButton"class="btn btn-primary">Submit Quiz</button>
-    `;      
-   
+    `;
+
+}
+// Add an event listener to the submit button
+var submitButton = document.getElementById('submitQuizButton');
+submitButton.addEventListener('click', calculateScore);
+
+// Function to calculate the score
+function calculateScore() {
+    //Define correct answers
+    var correctCEQuestionAnswers = {
+        question1: "option1",
+        question2: "option1",
+        question3: "option2",
+        question4: "option2",
+        question5: "option2"
+    };
+    var correctEconomicsQuestionsAnswers = {
+        question1: "option2",
+        question2: "option2",
+        question3: "option2",
+        question4: "option1",
+        question5: "option2"
+    };
+    var correctComputerQuestionsAnswers = {
+        question1: "option1",
+        question2: "option1",
+        question3: "option1",
+        question4: "option3",
+        question5: "option2"
+    };
+    var correctChemistryQuestionsAnswers = {
+        question1: "option1",
+        question2: "option1",
+        question3: "option2",
+        question4: "option3",
+        question5: "option2"
+    };
+    var correctBiologyQuestionsAnswers = {
+        question1: "option1",
+        question2: "option3",
+        question3: "option1",
+        question4: "option3",
+        question5: "option4"
+    };
+    var correctPhysicsQuestionsAnswers = {
+        question1: "option1",
+        question2: "option2",
+        question3: "option1",
+        question4: "option1",
+        question5: "option1"
+    };
+
+    var correctAnswers = {};
+    switch (title) {
+        case 'Introduction to Physics':
+            correctAnswers = correctPhysicsQuestionsAnswers;
+            break;
+        case 'Introduction to Chemistry':
+            correctAnswers = correctChemistryQuestionsAnswers;
+            break;
+        case 'Introduction to Biology':
+            correctAnswers = correctBiologyQuestionsAnswers;
+            break;
+        case 'Introduction to Computer':
+            correctAnswers = correctComputerQuestionsAnswers;
+            break;
+        case 'Introduction to Economics':
+            correctAnswers = correctEconomicsQuestionsAnswers;
+            break;
+        case 'Introduction to Civil Engineering':
+            correctAnswers = correctCEQuestionAnswers;
+            break;
+        default:
+            // If the subject is not recognized,show an error message
+            console.error('Unknown subject:', title);
+            return;
+    }
+
+    var quizForm = document.getElementById('quizForm');
+    var score = 0;
+
+    // Loop through each question and check the selected answer against the correct answer
+    for (var question in correctAnswers) {
+        var selectedAnswer = quizForm.querySelector('input[name="' + question + '"]:checked');
+        if (selectedAnswer && selectedAnswer.value === correctAnswers[question]) {
+            score++;
+        }
+    }
+
+    // Display the score
+    if (score > 3) {
+        alert('Your score is: ' + score + '/' + Object.keys(correctAnswers).length + '. Well done!');
+        window.location.href = 'courses.html';
+    } else {
+        alert('Your score is: ' + score + '/' + Object.keys(correctAnswers).length + '. Try again.');
+    }
+
 }
