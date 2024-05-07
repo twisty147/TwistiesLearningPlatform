@@ -44,37 +44,40 @@
 
 
     <!-- Sign Up Form -->
-    <div class="container mt-5">
-        <div class="row justify-content-center">
-            <div class="col-md-6">
-                <div class="card">
-                    <div class="card-body">
-                        <h2 class="card-title text-center">Sign Up</h2>
-                        <form id="signupForm" onsubmit="return validateForm(event)">
-                            <div class="form-group">
-                                <label for="inputUsername">Username</label>
-                                <input type="text" class="form-control" id="inputUsername"
-                                    placeholder="Enter your username" required>
-                            </div>
-                            <div class="form-group">
-                                <label for="inputEmail">Email address</label>
-                                <input type="email" class="form-control" id="inputEmail" placeholder="Enter your email"
-                                    required>
-                            </div>
-                            <div class="form-group">
-                                <label for="inputPassword">Password</label>
-                                <input type="password" class="form-control" id="inputPassword"
-                                    placeholder="Enter your password" pattern="(?=.*\d)(?=.*[A-Z])(?=.*\W).{8,}"
-                                    title="Password must contain at least 8 characters, including one uppercase letter, one digit, and one special character"
-                                    required>
-                            </div>
-                            <button type="submit" class="btn btn-primary btn-block">Sign Up</button>
-                        </form>
+    <section>
+        <div class="container mt-5">
+            <div class="row justify-content-center">
+                <div class="col-md-6">
+                    <div class="card">
+                        <div class="card-body">
+                            <h2 class="card-title text-center">Sign Up</h2>
+                            <form id="signupForm" onsubmit="return validateForm(event)">
+                                <div class="form-group">
+                                    <label for="inputUsername">Username</label>
+                                    <input type="text" class="form-control" id="inputUsername"
+                                        placeholder="Enter your username" required>
+                                </div>
+                                <div class="form-group">
+                                    <label for="inputEmail">Email address</label>
+                                    <input type="email" class="form-control" id="inputEmail" placeholder="Enter your email"
+                                        required>
+                                </div>
+                                <div class="form-group">
+                                    <label for="inputPassword">Password</label>
+                                    <input type="password" class="form-control" id="inputPassword"
+                                        placeholder="Enter your password" pattern="(?=.*\d)(?=.*[A-Z])(?=.*\W).{8,}"
+                                        title="Password must contain at least 8 characters, including one uppercase letter, one digit, and one special character"
+                                        required>
+                                </div>
+                                <button type="submit" class="btn btn-primary btn-block">Sign Up</button>
+                            </form>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
-    </div>
+    </section>
+    
     <!-- Footer -->
     <footer class="bg-dark text-light text-center py-4 fixed-bottom">
         <p>&copy; 2024 Twisties Learning Platform. All rights reserved.</p>
