@@ -61,3 +61,40 @@ function searchWord() {
     // Open the modal
     $('#dictionaryModal').modal('show');
   }
+
+  // Function to inform the user that login functionality is not available
+function validateLogin() {
+  alert("Sorry, the login functionality is not available at this point. Please try again later.");
+  return false; // Prevent form submission
+}
+
+// Function to validate the signup form
+function validateForm() {
+  // Retrieve input values
+  var username = document.getElementById('inputUsername').value;
+  var email = document.getElementById('inputEmail').value;
+  var password = document.getElementById('inputPassword').value;
+
+  // Validate email format using regular expression
+  var emailRegex = /^\w+@[a-zA-Z_]+?\.[a-zA-Z]{2,3}$/;
+  if (!emailRegex.test(email)) {
+    alert("Please enter a valid email address.");
+    return false;
+  }
+
+  // Validate password complexity using regular expression
+  var passwordRegex = /^(?=.*\d)(?=.*[A-Z])(?=.*\W).{8,}$/;
+  if (!passwordRegex.test(password)) {
+    alert("Password must contain at least 8 characters, including one uppercase letter, one digit, and one special character.");
+    return false;
+  }
+
+  // All validations passed, show processing message
+  showProcessingMessage();
+  return true;
+}
+
+// Function to show processing message
+function showProcessingMessage() {
+  alert("Thank you for signing up! Your information is being processed. You'll receive a notification once everything is ready.");
+}
