@@ -291,7 +291,7 @@ function populateComputerQuestions() {
         <label for="q5_option2">To store and manage data</label><br>
         <input type="radio" id="q5_option3" name="question5" value="option3">
         <label for="q5_option3">To edit images</label><br>
-        <input type="radio" id="q5_option4" name="question5" value="option4">
+        <input type="radio" id="q5_option4" name="question5" value="option4"> 
         <label for="q5_option4">To generate reports</label><br>
     </div>
     <button type="button" id="submitQuizButton"class="btn btn-primary">Submit Quiz</button>
