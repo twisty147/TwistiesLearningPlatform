@@ -15,166 +15,196 @@
 
 <body>
     <!-- Navbar -->
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <a class="navbar-brand" href="#">
-            <img src="images/Tlogo.png" alt="Twisties Learning Platform Logo">Twisties Learning Platform
-        </a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
-            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav ml-auto">
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Home</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="courses.html">Courses</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="signUp.html">Sign Up</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="logIn.html">Login</a>
-                </li>
-            </ul>
-        </div>
-    </nav>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <a class="navbar-brand" href="#">
+                <img src="images/Tlogo.png" alt="Twisties Learning Platform Logo">Twisties Learning Platform
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="courses.html">Courses</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="signUp.html">Sign Up</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="logIn.html">Login</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
     <!-- Navbar End -->
 
     <!-- Jumbotron/Featured Content -->
-    <div class="jumbotron">
-        <div class="container">
-            <h1 class="display-4">Welcome to the Twisties Learning Platform</h1>
-            <p class="lead">Learn STEM subjects in an interactive and engaging way!</p>
-            <hr class="my-4">
-            <p>Start your journey now!</p>
-            <a class="btn btn-primary btn-lg" href="courses.html" role="button">Explore Now</a>
+    <section id="jumbotron">
+        <div class="jumbotron">
+            <div class="container">
+                <h1 class="display-4">Welcome to the Twisties Learning Platform</h1>
+                <p class="lead">Learn STEM subjects in an interactive and engaging way!</p>
+                <hr class="my-4">
+                <p>Start your journey now!</p>
+                <a class="btn btn-primary btn-lg" href="courses.html" role="button">Explore Now</a>
+            </div>
         </div>
-    </div>
-    <!-- Jumbotron/Featured ContentEnd-->
+    </section>
+    <!-- Jumbotron/Featured Content End-->
 
     <!-- Main Content Section -->
-    <div class="container">
-        <div class="row">
-            <div class="col-md-8">
-                <!-- Dictionary Section -->
-                <div class="card mb-4">
-                    <div class="card-body">
-                        <h2 class="card-title">Dictionary</h2>
-                        <p class="card-text">Use the dictionary to look up the definitions, phonetics, and meanings of
-                            words.</p>
-                        <p class="card-text">Simply enter a word in the search field below and click the "Search"
-                            button.</p>
-                        <form id="dictionaryForm" class="form-inline">
-                            <div class="input-group">
-                                <input id="dictionaryInput" class="form-control" type="search"
-                                    placeholder="Enter a word" aria-label="Enter a word">
-                                <div class="input-group-append">
-                                    <button id="dictionaryButton" class="btn btn-primary" type="button"
-                                        onclick="searchWord()">Search</button>
-                                </div>
+    <main>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-8">
+                    <!-- Dictionary Section -->
+                    <section id="dictionary">
+                        <div class="card mb-4">
+                            <div class="card-body">
+                                <h2 class="card-title">Dictionary</h2>
+                                <p class="card-text">Use the dictionary to look up the definitions, phonetics, and
+                                    meanings
+                                    of
+                                    words.</p>
+                                <p class="card-text">Simply enter a word in the search field below and click the
+                                    "Search"
+                                    button.</p>
+                                <form id="dictionaryForm" class="form-inline">
+                                    <div class="input-group">
+                                        <input id="dictionaryInput" class="form-control" type="search"
+                                            placeholder="Enter a word" aria-label="Enter a word">
+                                        <div class="input-group-append">
+                                            <button id="dictionaryButton" class="btn btn-primary" type="button"
+                                                onclick="searchWord()">Search</button>
+                                        </div>
+                                    </div>
+                                </form>
+
+                                <!-- Button trigger modal -->
+                                <button type="button" id=hidden-modal class="btn btn-primary" data-toggle="modal"
+                                    data-target="#dictionaryModal">
+                                    Launch modal
+                                </button>
                             </div>
-                        </form>
+                        </div>
+                    </section>
+                    <!-- Dictionary Section End-->
 
-                        <!-- Button trigger modal -->
-                        <button type="button" id=hidden-modal class="btn btn-primary" data-toggle="modal"
-                            data-target="#dictionaryModal" id="openModalButton">
-                            Launch modal
-                        </button>
-                    </div>
+                    <!-- Featured Lesson -->
+                    <section id="featured-lessons">
+                        <div class="card mb-4">
+                            <div class="card-body">
+                                <h2 class="card-title">Featured Lesson: Introduction to Physics</h2>
+                                <p class="card-text">Explore the fundamental principles of physics in this interactive
+                                    lesson.
+                                </p>
+                                <a href="cLesson.html?course=physics" class="btn btn-primary">Start Lesson</a>
+                            </div>
+                        </div>
+                        <div class="card mb-4">
+                            <div class="card-body">
+                                <h2 class="card-title">Featured Lesson: Introduction to Chemistry</h2>
+                                <p class="card-text">Explore the fundamental principles of Chemistry in this interactive
+                                    lesson.
+                                </p>
+                                <a href="cLesson.html?course=chemistry" class="btn btn-primary">Start Lesson</a>
+                            </div>
+                        </div>
+                        <div class="card mb-4">
+                            <div class="card-body">
+                                <h2 class="card-title">Featured Lesson: Introduction to Economics</h2>
+                                <p class="card-text">Explore the fundamental principles of Economics in this interactive
+                                    lesson.
+                                </p>
+                                <a href="cLesson.html?course=economics" class="btn btn-primary">Start Lesson</a>
+                            </div>
+                        </div>
+                    </section>
+                    <!-- Featured Lesson End-->
                 </div>
-                <!-- Dictionary Section End-->
+                <div class="col-md-4">
+                    <!-- Call to Action for Educators -->
+                    <section id="educators">
+                        <div class="card mb-4">
+                            <div class="card-body">
+                                <h3 class="card-title">Educators, Join Us!</h3>
+                                <p class="card-text">Explore the capabilities of our platform to enhance STEM education
+                                    in
+                                    your
+                                    classroom.
+                                </p>
+                                <p class="card-text">Access teaching resources, student progress tracking tools, and
+                                    collaboration features.
+                                </p>
+                                <a href="educators.html" class="btn btn-primary btn-block">Learn More</a>
+                            </div>
+                        </div>
+                    </section>
+                    <!-- Call to Action for Educators End-->
 
-                <!-- Featured Lesson -->
-                <div class="card mb-4">
-                    <div class="card-body">
-                        <h2 class="card-title">Featured Lesson: Introduction to Physics</h2>
-                        <p class="card-text">Explore the fundamental principles of physics in this interactive lesson.
-                        </p>
-                        <a href="cLesson.html?course=physics" class="btn btn-primary">Start Lesson</a>
-                    </div>
-                </div>
-                <div class="card mb-4">
-                    <div class="card-body">
-                        <h2 class="card-title">Featured Lesson: Introduction to Chemistry</h2>
-                        <p class="card-text">Explore the fundamental principles of Chemistry in this interactive lesson.
-                        </p>
-                        <a href="cLesson.html?course=chemistry" class="btn btn-primary">Start Lesson</a>
-                    </div>
-                </div>
-                <div class="card mb-4">
-                    <div class="card-body">
-                        <h2 class="card-title">Featured Lesson: Introduction to Economics</h2>
-                        <p class="card-text">Explore the fundamental principles of Economics in this interactive lesson.
-                        </p>
-                        <a href="cLesson.html?course=economics" class="btn btn-primary">Start Lesson</a>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-4">
-                <!-- Featured Lesson End-->
-
-                <!-- Call to Action for Educators -->
-                <div class="card mb-4">
-                    <div class="card-body">
-                        <h3 class="card-title">Educators, Join Us!</h3>
-                        <p class="card-text">Explore the capabilities of our platform to enhance STEM education in your
-                            classroom.
-                        </p>
-                        <p class="card-text">Access teaching resources, student progress tracking tools, and
-                            collaboration features.
-                        </p>
-                        <a href="educators.html" class="btn btn-primary btn-block">Learn More</a>
-                    </div>
-                </div>
-                <!-- Call to Action for Educators End-->
-
-                <!--  Success Stories -->
-                <div id="testimonialsCarousel" class="carousel slide" data-ride="carousel">
-                    <div class="carousel-inner">
-                        <div class="carousel-item active">
-                            <div class="card mb-4">
-                                <div class="card-body">
-                                    <h3 class="card-title">Testimonials</h3>
-                                    <div class="testimonial">
-                                        <p class="card-text">"The Twisties Learning Platform has revolutionized how I
-                                            teach STEM subjects.
-                                            My
-                                            students are more engaged and motivated to learn than ever before."</p>
-                                        <p class="card-text"><em>- John Doe, High School Teacher</em></p>
+                    <!--  Success Stories -->
+                    <section id="success-stories">
+                        <div id="testimonialsCarousel" class="carousel slide" data-ride="carousel">
+                            <div class="carousel-inner">
+                                <div class="carousel-item active">
+                                    <div class="card mb-4">
+                                        <div class="card-body">
+                                            <h3 class="card-title">Testimonials</h3>
+                                            <div class="testimonial">
+                                                <p class="card-text">"The Twisties Learning Platform has revolutionized
+                                                    how
+                                                    I
+                                                    teach STEM subjects.
+                                                    My
+                                                    students are more engaged and motivated to learn than ever before."
+                                                </p>
+                                                <p class="card-text"><em>- John Doe, High School Teacher</em></p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="carousel-item">
+                                    <div class="card mb-4">
+                                        <div class="card-body">
+                                            <h3 class="card-title">Testimonials</h3>
+                                            <div class="testimonial">
+                                                <p class="card-text">"As an educator, I appreciate the wealth of
+                                                    resources
+                                                    available on the
+                                                    platform. It has made lesson planning and student assessment much
+                                                    easier."
+                                                </p>
+                                                <p class="card-text"><em>- Jane Smith, STEM Coordinator</em></p>
+                                            </div>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
+                            <a class="carousel-control-prev" href="#testimonialsCarousel" role="button"
+                                data-slide="prev">
+                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                <span class="sr-only">Previous</span>
+                            </a>
+                            <a class="carousel-control-next" href="#testimonialsCarousel" role="button"
+                                data-slide="next">
+                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                <span class="sr-only">Next</span>
+                            </a>
                         </div>
-                        <div class="carousel-item">
-                            <div class="card mb-4">
-                                <div class="card-body">
-                                    <h3 class="card-title">Testimonials</h3>
-                                    <div class="testimonial">
-                                        <p class="card-text">"As an educator, I appreciate the wealth of resources
-                                            available on the
-                                            platform. It has made lesson planning and student assessment much easier."
-                                        </p>
-                                        <p class="card-text"><em>- Jane Smith, STEM Coordinator</em></p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <a class="carousel-control-prev" href="#testimonialsCarousel" role="button" data-slide="prev">
-                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                        <span class="sr-only">Previous</span>
-                    </a>
-                    <a class="carousel-control-next" href="#testimonialsCarousel" role="button" data-slide="next">
-                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                        <span class="sr-only">Next</span>
-                    </a>
+                    </section>
+                    <!-- Success Stories End -->
                 </div>
-                <!-- Success Stories End -->
             </div>
         </div>
-    </div>
+    </main>
+    <!-- Main Content Section End -->
+
     <!-- Dictionary Result Modal -->
     <div class="modal fade" id="dictionaryModal" tabindex="-1" role="dialog" aria-labelledby="dictionaryModalLabel"
         aria-hidden="true">
@@ -199,7 +229,7 @@
     <footer class="bg-dark text-light text-center py-4">
         <p>&copy; 2024 Twisties Learning Platform. All rights reserved.</p>
     </footer>
-
+    <!-- Footer End-->
     <!-- Bootstrap JS and jQuery -->
     <script src="javaScript/script.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
