@@ -109,3 +109,317 @@ function populatePhysicsQuestions() {
     `;
 
 }
+// Function to populate the quiz form with biology questions
+function populateBiologyQuestions() {
+    var quizForm = document.getElementById('quizForm');
+    // Dynamically generate HTML for biology questions with radio button options
+    quizForm.innerHTML = `
+    <label for="question1"><b>Question 1: What is the primary function of DNA?</b></label>
+    <div>
+        <input type="radio" id="q1_option1" name="question1" value="option1">
+        <label for="q1_option1">To store and transmit genetic information</label><br>
+        <input type="radio" id="q1_option2" name="question1" value="option2">
+        <label for="q1_option2">To produce energy for cells</label><br>
+        <input type="radio" id="q1_option3" name="question1" value="option3">
+        <label for="q1_option3">To regulate body temperature</label><br>
+        <input type="radio" id="q1_option4" name="question1" value="option4">
+        <label for="q1_option4">To synthesize proteins</label><br>
+    </div>
+    <label for="question2"><b>Question 2: What is the function of mitochondria in a cell?</b></label>
+    <div>
+        <input type="radio" id="q2_option1" name="question2" value="option1">
+        <label for="q2_option1">To store genetic information</label><br>
+        <input type="radio" id="q2_option2" name="question2" value="option2">
+        <label for="q2_option2">To regulate cell division</label><br>
+        <input type="radio" id="q2_option3" name="question2" value="option3">
+        <label for="q2_option3">To produce energy through cellular respiration</label><br>
+        <input type="radio" id="q2_option4" name="question2" value="option4">
+        <label for="q2_option4">To synthesize lipids</label><br>
+    </div>
+    <label for="question3"><b>Question 3: What is the process by which plants make their own food?</b></label>
+    <div>
+        <input type="radio" id="q3_option1" name="question3" value="option1">
+        <label for="q3_option1">Photosynthesis</label><br>
+        <input type="radio" id="q3_option2" name="question3" value="option2">
+        <label for="q3_option2">Cellular respiration</label><br>
+        <input type="radio" id="q3_option3" name="question3" value="option3">
+        <label for="q3_option3">Glycolysis</label><br>
+        <input type="radio" id="q3_option4" name="question3" value="option4">
+        <label for="q3_option4">Fermentation</label><br>
+    </div>
+    <label for="question4"><b>Question 4: What is the function of the immune system?</b></label>
+    <div>
+        <input type="radio" id="q4_option1" name="question4" value="option1">
+        <label for="q4_option1">To regulate body temperature</label><br>
+        <input type="radio" id="q4_option2" name="question4" value="option2">
+        <label for="q4_option2">To transport oxygen to cells</label><br>
+        <input type="radio" id="q4_option3" name="question4" value="option3">
+        <label for="q4_option3">To protect the body from pathogens</label><br>
+        <input type="radio" id="q4_option4" name="question4" value="option4">
+        <label for="q4_option4">To synthesize hormones</label><br>
+    </div>
+    <label for="question5"><b>Question 5: What is the function of the circulatory system?</b></label>
+    <div>
+        <input type="radio" id="q5_option1" name="question5" value="option1">
+        <label for="q5_option1">To produce antibodies</label><br>
+        <input type="radio" id="q5_option2" name="question5" value="option2">
+        <label for="q5_option2">To provide structure and support</label><br>
+        <input type="radio" id="q5_option3" name="question5" value="option3">
+        <label for="q5_option3">To regulate body temperature</label><br>
+        <input type="radio" id="q5_option4" name="question5" value="option4">
+        <label for="q5_option4">To transport nutrients and oxygen throughout the body</label><br>
+    </div>
+    <button type="button" id="submitQuizButton"class="btn btn-primary">Submit Quiz</button>
+    `;
+
+}
+function populateChemistryQuestions() {
+    var quizForm = document.getElementById('quizForm');
+    // Dynamically generate HTML for chemistry questions with radio button options
+    quizForm.innerHTML = `
+    <label for="question1"><b>Question 1: What is an atom?</b></label>
+    <div>
+        <input type="radio" id="q1_option1" name="question1" value="option1">
+        <label for="q1_option1">The smallest unit of matter that retains the properties of an element</label><br>
+        <input type="radio" id="q1_option2" name="question1" value="option2">
+        <label for="q1_option2">A molecule bonded with another molecule</label><br>
+        <input type="radio" id="q1_option3" name="question1" value="option3">
+        <label for="q1_option3">A substance composed of multiple elements</label><br>
+        <input type="radio" id="q1_option4" name="question1" value="option4">
+        <label for="q1_option4">A particle with a positive charge</label><br>
+    </div>
+    <label for="question2"><b>Question 2: What is a chemical bond?</b></label>
+    <div>
+        <input type="radio" id="q2_option1" name="question2" value="option1">
+        <label for="q2_option1">A force that holds atoms together in a compound</label><br>
+        <input type="radio" id="q2_option2" name="question2" value="option2">
+        <label for="q2_option2">A measurement of atomic mass</label><br>
+        <input type="radio" id="q2_option3" name="question2" value="option3">
+        <label for="q2_option3">A type of chemical reaction</label><br>
+        <input type="radio" id="q2_option4" name="question2" value="option4">
+        <label for="q2_option4">A bond formed between two ions</label><br>
+    </div>
+    <label for="question3"><b>Question 3: What is the pH scale used for?</b></label>
+    <div>
+        <input type="radio" id="q3_option1" name="question3" value="option1">
+        <label for="q3_option1">To measure temperature</label><br>
+        <input type="radio" id="q3_option2" name="question3" value="option2">
+        <label for="q3_option2">To measure acidity or alkalinity of a solution</label><br>
+        <input type="radio" id="q3_option3" name="question3" value="option3">
+        <label for="q3_option3">To measure the concentration of ions in a solution</label><br>
+        <input type="radio" id="q3_option4" name="question3" value="option4">
+        <label for="q3_option4">To measure the density of a substance</label><br>
+    </div>
+    <label for="question4"><b>Question 4: What is a chemical reaction?</b></label>
+    <div>
+        <input type="radio" id="q4_option1" name="question4" value="option1">
+        <label for="q4_option1">A physical change in a substance</label><br>
+        <input type="radio" id="q4_option2" name="question4" value="option2">
+        <label for="q4_option2">A change in temperature</label><br>
+        <input type="radio" id="q4_option3" name="question4" value="option3">
+        <label for="q4_option3">A process where one or more substances are transformed into new substances</label><br>
+        <input type="radio" id="q4_option4" name="question4" value="option4">
+        <label for="q4_option4">A physical mixture of two or more substances</label><br>
+    </div>
+    <label for="question5"><b>Question 5: What is an element?</b></label>
+    <div>
+        <input type="radio" id="q5_option1" name="question5" value="option1">
+        <label for="q5_option1">A compound made up of atoms of different elements</label><br>
+        <input type="radio" id="q5_option2" name="question5" value="option2">
+        <label for="q5_option2">A substance that cannot be broken down into simpler substances by chemical means</label><br>
+        <input type="radio" id="q5_option3" name="question5" value="option3">
+        <label for="q5_option3">A substance composed of molecules</label><br>
+        <input type="radio" id="q5_option4" name="question5" value="option4">
+        <label for="q5_option4">A particle with a negative charge</label><br>
+    </div>
+    <button type="button" id="submitQuizButton"class="btn btn-primary">Submit Quiz</button>
+    `;
+}
+function populateComputerQuestions() {
+    var quizForm = document.getElementById('quizForm');
+    // Dynamically generate HTML for computer science questions with radio button options
+    quizForm.innerHTML = `
+    <label for="question1"><b>Question 1: What is a programming language?</b></label>
+    <div>
+        <input type="radio" id="q1_option1" name="question1" value="option1">
+        <label for="q1_option1">A set of instructions for a computer to perform tasks</label><br>
+        <input type="radio" id="q1_option2" name="question1" value="option2">
+        <label for="q1_option2">A hardware component of a computer</label><br>
+        <input type="radio" id="q1_option3" name="question1" value="option3">
+        <label for="q1_option3">A type of computer processor</label><br>
+        <input type="radio" id="q1_option4" name="question1" value="option4">
+        <label for="q1_option4">A form of computer memory</label><br>
+    </div>
+    <label for="question2"><b>Question 2: What does HTML stand for?</b></label>
+    <div>
+        <input type="radio" id="q2_option1" name="question2" value="option1">
+        <label for="q2_option1">Hyper Text Markup Language</label><br>
+        <input type="radio" id="q2_option2" name="question2" value="option2">
+        <label for="q2_option2">Highly Technical Markup Language</label><br>
+        <input type="radio" id="q2_option3" name="question2" value="option3">
+        <label for="q2_option3">Home Tool Markup Language</label><br>
+        <input type="radio" id="q2_option4" name="question2" value="option4">
+        <label for="q2_option4">Hyperlink and Text Markup Language</label><br>
+    </div>
+    <label for="question3"><b>Question 3: What is the purpose of a compiler?</b></label>
+    <div>
+        <input type="radio" id="q3_option1" name="question3" value="option1">
+        <label for="q3_option1">To translate high-level programming languages into machine code</label><br>
+        <input type="radio" id="q3_option2" name="question3" value="option2">
+        <label for="q3_option2">To execute computer programs</label><br>
+        <input type="radio" id="q3_option3" name="question3" value="option3">
+        <label for="q3_option3">To manage files and directories</label><br>
+        <input type="radio" id="q3_option4" name="question3" value="option4">
+        <label for="q3_option4">To design user interfaces</label><br>
+    </div>
+    <label for="question4"><b>Question 4: What is a function in programming?</b></label>
+    <div>
+        <input type="radio" id="q4_option1" name="question4" value="option1">
+        <label for="q4_option1">A mathematical equation</label><br>
+        <input type="radio" id="q4_option2" name="question4" value="option2">
+        <label for="q4_option2">A collection of data</label><br>
+        <input type="radio" id="q4_option3" name="question4" value="option3">
+        <label for="q4_option3">A block of code that performs a specific task</label><br>
+        <input type="radio" id="q4_option4" name="question4" value="option4">
+        <label for="q4_option4">A type of programming language</label><br>
+    </div>
+    <label for="question5"><b>Question 5: What is the purpose of a database?</b></label>
+    <div>
+        <input type="radio" id="q5_option1" name="question5" value="option1">
+        <label for="q5_option1">To create animations</label><br>
+        <input type="radio" id="q5_option2" name="question5" value="option2">
+        <label for="q5_option2">To store and manage data</label><br>
+        <input type="radio" id="q5_option3" name="question5" value="option3">
+        <label for="q5_option3">To edit images</label><br>
+        <input type="radio" id="q5_option4" name="question5" value="option4">
+        <label for="q5_option4">To generate reports</label><br>
+    </div>
+    <button type="button" id="submitQuizButton"class="btn btn-primary">Submit Quiz</button>
+    
+    `;
+}
+function populateEconomicsQuestions() {
+    var quizForm = document.getElementById('quizForm');
+    // Dynamically generate HTML for economics questions with radio button options
+    quizForm.innerHTML = `
+    <label for="question1"><b>Question 1: What is scarcity in economics?</b></label>
+    <div>
+        <input type="radio" id="q1_option1" name="question1" value="option1">
+        <label for="q1_option1">The unlimited wants and needs of society</label><br>
+        <input type="radio" id="q1_option2" name="question1" value="option2">
+        <label for="q1_option2">The limited resources available to fulfill society's wants and needs</label><br>
+        <input type="radio" id="q1_option3" name="question1" value="option3">
+        <label for="q1_option3">The excess supply of goods and services</label><br>
+        <input type="radio" id="q1_option4" name="question1" value="option4">
+        <label for="q1_option4">The balance between supply and demand</label><br>
+    </div>
+    <label for="question2"><b>Question 2: What is inflation?</b></label>
+    <div>
+        <input type="radio" id="q2_option1" name="question2" value="option1">
+        <label for="q2_option1">A decrease in the general level of prices</label><br>
+        <input type="radio" id="q2_option2" name="question2" value="option2">
+        <label for="q2_option2">An increase in the general level of prices</label><br>
+        <input type="radio" id="q2_option3" name="question2" value="option3">
+        <label for="q2_option3">A decrease in the unemployment rate</label><br>
+        <input type="radio" id="q2_option4" name="question2" value="option4">
+        <label for="q2_option4">An increase in the production of goods and services</label><br>
+    </div>
+    <label for="question3"><b>Question 3: What is the law of demand?</b></label>
+    <div>
+        <input type="radio" id="q3_option1" name="question3" value="option1">
+        <label for="q3_option1">As the price of a good increases, the quantity demanded increases</label><br>
+        <input type="radio" id="q3_option2" name="question3" value="option2">
+        <label for="q3_option2">As the price of a good decreases, the quantity demanded decreases</label><br>
+        <input type="radio" id="q3_option3" name="question3" value="option3">
+        <label for="q3_option3">There is no relationship between price and quantity demanded</label><br>
+        <input type="radio" id="q3_option4" name="question3" value="option4">
+        <label for="q3_option4">As the price of a good increases, the quantity demanded decreases</label><br>
+    </div>
+    <label for="question4"><b>Question 4: What is gross domestic product (GDP)?</b></label>
+    <div>
+        <input type="radio" id="q4_option1" name="question4" value="option1">
+        <label for="q4_option1">The total value of all goods and services produced within a country in a given period</label><br>
+        <input type="radio" id="q4_option2" name="question4" value="option2">
+        <label for="q4_option2">The total value of all goods and services consumed within a country in a given period</label><br>
+        <input type="radio" id="q4_option3" name="question4" value="option3">
+        <label for="q4_option3">The total value of all goods and services exported by a country in a given period</label><br>
+        <input type="radio" id="q4_option4" name="question4" value="option4">
+        <label for="q4_option4">The total value of all goods and services imported by a country in a given period</label><br>
+    </div>
+    <label for="question5"><b>Question 5: What is a monopoly?</b></label>
+    <div>
+        <input type="radio" id="q5_option1" name="question5" value="option1">
+        <label for="q5_option1">A market structure with many sellers and no barriers to entry</label><br>
+        <input type="radio" id="q5_option2" name="question5" value="option2">
+        <label for="q5_option2">A market structure with one seller and many buyers</label><br>
+        <input type="radio" id="q5_option3" name="question5" value="option3">
+        <label for="q5_option3">A market structure with few sellers and high barriers to entry</label><br>
+        <input type="radio" id="q5_option4" name="question5" value="option4">
+        <label for="q5_option4">A market structure with many sellers and low barriers to entry</label><br>
+    </div>
+    <button type="button" id="submitQuizButton"class="btn btn-primary">Submit Quiz</button>
+    `;
+}
+function populateCEQuestions() {
+    var quizForm = document.getElementById('quizForm');
+    // Dynamically generate HTML for civil engineering questions with radio button options
+    quizForm.innerHTML = `
+    <label for="question1"><b>Question 1: What is the purpose of a foundation in civil engineering?</b></label>
+    <div>
+        <input type="radio" id="q1_option1" name="question1" value="option1">
+        <label for="q1_option1">To provide structural support for a building or structure</label><br>
+        <input type="radio" id="q1_option2" name="question1" value="option2">
+        <label for="q1_option2">To insulate a building from temperature changes</label><br>
+        <input type="radio" id="q1_option3" name="question1" value="option3">
+        <label for="q1_option3">To provide electrical wiring for a building</label><br>
+        <input type="radio" id="q1_option4" name="question1" value="option4">
+        <label for="q1_option4">To regulate water flow around a building</label><br>
+    </div>
+    <label for="question2"><b>Question 2: What is the purpose of a beam in structural engineering?</b></label>
+    <div>
+        <input type="radio" id="q2_option1" name="question2" value="option1">
+        <label for="q2_option1">To support the weight of a building</label><br>
+        <input type="radio" id="q2_option2" name="question2" value="option2">
+        <label for="q2_option2">To provide insulation for a building</label><br>
+        <input type="radio" id="q2_option3" name="question2" value="option3">
+        <label for="q2_option3">To distribute electrical power throughout a building</label><br>
+        <input type="radio" id="q2_option4" name="question2" value="option4">
+        <label for="q2_option4">To regulate air flow within a building</label><br>
+    </div>
+    <label for="question3"><b>Question 3: What is the purpose of a retaining wall?</b></label>
+    <div>
+        <input type="radio" id="q3_option1" name="question3" value="option1">
+        <label for="q3_option1">To provide structural support for a building</label><br>
+        <input type="radio" id="q3_option2" name="question3" value="option2">
+        <label for="q3_option2">To prevent soil erosion and landslides</label><br>
+        <input type="radio" id="q3_option3" name="question3" value="option3">
+        <label for="q3_option3">To filter water runoff from a site</label><br>
+        <input type="radio" id="q3_option4" name="question3" value="option4">
+        <label for="q3_option4">To regulate traffic flow</label><br>
+    </div>
+    <label for="question4"><b>Question 4: What is the purpose of a culvert in civil engineering?</b></label>
+    <div>
+        <input type="radio" id="q4_option1" name="question4" value="option1">
+        <label for="q4_option1">To transport electrical cables</label><br>
+        <input type="radio" id="q4_option2" name="question4" value="option2">
+        <label for="q4_option2">To provide drainage for stormwater</label><br>
+        <input type="radio" id="q4_option3" name="question4" value="option3">
+        <label for="q4_option3">To support the weight of a building</label><br>
+        <input type="radio" id="q4_option4" name="question4" value="option4">
+        <label for="q4_option4">To regulate airflow in a tunnel</label><br>
+    </div>
+    <label for="question5"><b>Question 5: What is the purpose of geotechnical engineering?</b></label>
+    <div>
+        <input type="radio" id="q5_option1" name="question5" value="option1">
+        <label for="q5_option1">To design electrical systems for buildings</label><br>
+        <input type="radio" id="q5_option2" name="question5" value="option2">
+        <label for="q5_option2">To analyze the behavior of soil and rock</label><br>
+        <input type="radio" id="q5_option3" name="question5" value="option3">
+        <label for="q5_option3">To regulate traffic flow</label><br>
+        <input type="radio" id="q5_option4" name="question5" value="option4">
+        <label for="q5_option4">To manage water resources</label><br>
+    </div>
+    <button type="button" id="submitQuizButton"class="btn btn-primary">Submit Quiz</button>
+    `;      
+   
+}
