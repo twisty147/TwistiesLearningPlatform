@@ -40,8 +40,6 @@ Twisties Learning Platform is a dynamic solution that provides STEM education th
 
 ## Usecase
 
-### Exploring and Completing a STEM Course
-
 ### Actors:
 - **User**: A person interested in learning STEM subjects.
 
