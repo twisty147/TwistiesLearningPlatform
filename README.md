@@ -43,9 +43,6 @@ Twisties Learning Platform is a dynamic solution that provides STEM education th
 ### Actors:
 - **User**: A person interested in learning STEM subjects.
 
-### Preconditions:
-- The user has access to the Twisties Learning Platform.
-
 ### Main Flow:
 1. **User Navigation**:
    - The user navigates to the Twisties Learning Platform website.
@@ -84,3 +81,16 @@ This serves as the foundational blueprint for Twisties learning Platform  design
 ![Low fidelity prototype](images/LowFidelity1.png)
 ![Low fidelity prototype](images/Lowfidelity2.png)
 ![Low fidelity prototype](images/LowFidelity3.png)
+
+### Justification for Color Scheme
+The choice of a blue, grey, and white color scheme for the Twisties Learning Platform is deliberate and serves several purposes:
+
+1. **Professionalism and Trustworthiness**: Blue is often associated with professionalism, trustworthiness, and reliability. By incorporating blue into the color scheme, the platform communicates a sense of credibility and authority in providing STEM education.
+
+2. **Calmness and Serenity**: Blue is also known for its calming and serene qualities. In an educational context, where users may be seeking knowledge and focus, using blue can help create a tranquil and conducive learning environment.
+
+3. **Neutrality and Balance**: Grey is a neutral color that complements blue well. It provides a sense of balance and stability to the color scheme, preventing it from feeling overwhelming or overly vibrant. Grey can also convey sophistication and modernity.
+
+4. **Cleanliness and Simplicity**: White is often associated with cleanliness, simplicity, and purity. By incorporating white into the color scheme, the platform achieves a clean and minimalist aesthetic, which can enhance readability and user experience.
+
+5. **Accessibility and Readability**: Blue and grey are typically high-contrast colors when paired with white, which can improve accessibility and readability, particularly for text and interactive elements.
