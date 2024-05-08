@@ -14,7 +14,7 @@ Twisties Learning Platform is a dynamic solution that provides STEM education th
 5. [Credits](#credit)
 6. [License](#license)
 
-## Requirements
+## REQUIREMENTS
 
 ### Home Page
 - **Dictionary**: Display a dictionary feature prominently on the home page, allowing users to explore and search for definitions of STEM- terms.
@@ -38,7 +38,7 @@ Twisties Learning Platform is a dynamic solution that provides STEM education th
 - **Responsive Design**: Ensure the platform is responsive and accessible across various devices and screen sizes.
 - **Progress Tracking**: Enable users to track their progress within each course.
 
-## Usecase
+## USECASE
 
 ### Actors:
 - **User**: A person interested in learning STEM subjects.
@@ -73,5 +73,14 @@ Twisties Learning Platform is a dynamic solution that provides STEM education th
 
 9. **Viewing Quiz Results**:
    - After submitting the quiz, the platform displays the user's quiz scores.
-   - If the user scores below a certain mark the user reviews their answers (Try again)
+   - If the user scores below a certain mark the user is allowed to Try again.
    - if the user scores above a certain mark the user is congratulated and redirected to the courses pageand may choose to revisit specific lessons for further study.
+
+## DESIGN
+
+### Low Fidelity Prototype
+This serves as the foundational blueprint for Twisties learning Platform  design and layout. It outlines the structural framework of the site, depicting the arrangement of key elements such as navigation menus, content sections, and interactive features.
+
+![Low fidelity prototype](images/LowFidelity1.png)
+![Low fidelity prototype](images/Lowfidelity2.png)
+![Low fidelity prototype](images/LowFidelity3.png)
