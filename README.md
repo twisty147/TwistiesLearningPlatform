@@ -114,7 +114,7 @@ HTML, CSS, jqueryand Bootstrap were used extensively in the development of the T
 ### Form Validation
 - Two functions, `validateLogin()` and `validateForm()`, handle form validation.
 - `validateLogin()` alerts users about the unavailability of login functionality.
-![Login Form](images/FormValidation2.png)
+![Login Form](images/formValidation2.png)
 - `validateForm()` checks email format and password complexity using regular expressions.
 ![Signup Form](images/FormValidation1.png)
 
