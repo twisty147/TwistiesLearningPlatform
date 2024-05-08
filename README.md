@@ -99,5 +99,66 @@ The choice of a blue, grey, and white color scheme for the Twisties Learning Pla
 
 The Waterfall Iterative Development Life Cycle (WIDLC) methodology was selected for the development of the Twisties Learning Platform. The WIDLC methodology follows a sequential, step-by-step process, with each phase building upon the results of the previous phase. However, it incorporates iterative elements, allowing for feedback and adjustments throughout the development lifecycle. It offered a structured approach to the development of the Twisties Learning Platform, allowing for thorough planning, design, implementation, testing, deployment, and maintenance.  This methodology was selected because the project requirements were well-defined, stable, and unlikely to change significantly throughout the development process.
 
+## Implementation
+
+HTML, CSS, jqueryand Bootstrap were used extensively in the development of the Twisties Learning Platform to create a visually appealing and user-friendly interface. HTML was used to structure the content of the platform, defining the layout and elements such as headings, paragraphs, buttons, and forms. CSS was utilized to style the HTML elements, including fonts, colors, spacing, and layout, ensuring a cohesive and consistent design across all pages. Bootstrap, a popular front-end framework, played a crucial role in the implementation by providing pre-designed components and utilities for responsive and mobile-first development. Bootstrap's grid system facilitated the creation of responsive layouts, ensuring that the platform is accessible and optimized for various screen sizes and devices. Additionally, Bootstrap's predefined CSS classes were utilized to enhance the visual appearance of elements such as navigation bars, buttons, cards, and modals, contributing to a polished and professional user experience.JavaScript played an instrumental role in adding interactivity and functionality to the platform. JavaScript was used to implement dynamic behavior, such as form validation, DOM manipulation, event handling, and modal popups. Together, these technologies enabled the creation of a seamless learning environment, allowing users to explore courses, search for definitions, view testimonials, and interact with educational content effortlessly. The integration of HTML, CSS, JavaScript, jQuery, and Bootstrap resulted in a cohesive and user-friendly platform that meets the needs of learners and educators alike
+
+## Features & Functions Implemented
+
+### Dictionary Functionality
+- The `searchWord()` function fetches dictionary data from an API based on user input and displays the results in a modal dialog.
+- Fetched data is rendered using the `displayDictionaryResultsInModal()` function.
+![Dictionary Feature](images/searchWordFunction.png)
+![Dictionary Result](images/DictionaryResult.png)
+
+### Form Validation
+- Two functions, `validateLogin()` and `validateForm()`, handle form validation.
+- `validateLogin()` alerts users about the unavailability of login functionality.
+![Login Form](images/FormValidation2.png)
+- `validateForm()` checks email format and password complexity using regular expressions.
+![Signup Form](images/FormValidation1.png)
+
+### URL Parameters
+- URL parameters are utilized to extract the course name and pass it along for various operations, such as fetching course content and setting up quiz links.
+- Based on the query parameter `course`, the script populates course content dynamically.
+- Each course has a list of topics with corresponding video links, populated based on the selected course.
+![URL Parameters](images/URIParameter.png)
+
+### Video Loading and Marking as Watched
+- On page load, the initial video for the selected course is loaded automatically.
+- Users can click on course topics to load corresponding videos.
+- Watched videos are marked, triggering a completion modal once all videos are watched. The modal congratulates the user and provides a link to a course-related quiz.
+
+### Completion Modal
+- The completion modal dynamically updates the course title each time it's displayed.
+- It also provides a link to take a quiz related to the course.
+![Video Loading and Marking as Watched](images/courseCompletion.png)
+
+### Event Listeners and jQuery Usage
+- Event listeners handle user interactions, such as clicking on course topics or the "Take Quiz" button.
+- jQuery is used for functionalities like dynamically setting the course title in the completion modal.
+
+## Quiz Implementation Details
+
+### Retrieving URL Parameters
+A JavaScript function `getParameterByName(name, url)` is implemented to retrieve the value of a URL parameter by name. It uses regular expressions to parse the URL and extract the desired parameter.
+![function to get parameter by name](images/getParamByname.png)
+
+### Dynamically Populating Quiz Forms
+- Separate functions are defined for each subject (e.g., `populatePhysicsQuestions()`, `populateChemistryQuestions()`).
+- Each function dynamically generates HTML content for the quiz form with radio button options for multiple-choice questions.
+- The HTML content is inserted into the designated quiz form element in the DOM (`<div id="quizForm"></div>`).
+![Populating Quiz Forms](images/porpulateQuizform.png)
+
+
+### Switch Case for Subject Selection
+- After retrieving the subject title from the URL parameter, a switch case statement is used to determine which subject's quiz questions to populate.
+- Based on the subject title, the corresponding function to populate quiz questions is called.
+![Subjection Selection Condition](images/swichCase.png)
+
+### Sample Quiz Questions
+The image below shows a sample of the quiz page.
+![Sample Quiz](images/sample%20quiz.png)
+
 
 
