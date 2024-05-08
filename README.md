@@ -7,6 +7,7 @@ Twisties Learning Platform is a dynamic solution that provides STEM education th
 # Table of Contents
 
 1. [Requirements](#requirements)
+2. [Usecase](#usecase)
 2. [Design](#product-design)
 3. [Development](#installation)
 4. [Testing](#testing)
@@ -37,3 +38,47 @@ Twisties Learning Platform is a dynamic solution that provides STEM education th
 - **Responsive Design**: Ensure the platform is responsive and accessible across various devices and screen sizes.
 - **Progress Tracking**: Enable users to track their progress within each course.
 
+## Usecase
+
+### Exploring and Completing a STEM Course
+
+### Actors:
+- **User**: A person interested in learning STEM subjects.
+
+### Preconditions:
+- The user has access to the Twisties Learning Platform.
+
+### Main Flow:
+1. **User Navigation**:
+   - The user navigates to the Twisties Learning Platform website.
+   - The home page loads, displaying various sections including a navigation bar, dictionary, featured lessons, and testimonials.
+
+2. **Exploring Available Courses**:
+   - The user clicks on the "Courses" link from the navigation menu.
+   - The user sees a list of available STEM courses categorized by subject or topic.
+
+3. **Selecting a Course**:
+   - The user browses through the list of courses and selects one that interests them.
+
+4. **Viewing Course Details**:
+   - The user is directed to the course details page, which includes the course content and video tutorials.
+
+6. **Accessing Course Content**:
+   - The user starts with the first lesson and progresses through the lessons.
+
+7. **Watching Video Tutorials**:
+   - Within each lesson selected from the list, the user watches video tutorials that explain the concepts and demonstrate examples related to the topic.
+
+8. **Taking End-of-Course Quiz**:
+   - Upon completing all the lessons in the course, the user is prompted to take an end-of-course quiz to test their understanding.
+   - The user answers the quiz questions and submits their responses.
+
+9. **Viewing Quiz Results**:
+   - After submitting the quiz, the platform displays the user's quiz scores.
+   - If the user scores below a certain mark the user reviews their answers (Try again)
+   - if the user scores above a certain mark the user is congratulated and redirected to the courses pageand may choose to revisit specific lessons for further study.
+
+### Postconditions:
+- The user has completed the selected STEM course and gained knowledge in the subject area.
+- The user's progress and quiz scores are recorded in their profile for tracking purposes.
+- The educator receives feedback on the course effectiveness and may make improvements based on user performance and feedback.
