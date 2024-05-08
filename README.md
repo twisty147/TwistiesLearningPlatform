@@ -1,6 +1,6 @@
 # Twisties Learning Platform
 
-Twisties Learning Platform is a dynamic solution that provides STEM education through its interactive and immersive approach. It offers an interactive STEM educational experience, seamlessly blending interactive technology with a comprehensive STEM curriculum to empower learners of all ages and backgrounds. The website has a responsive interface that adapts seamlessly to any device. Our goal goes beyond mere instruction – we aim to inspire engagement at every turn. 
+Twisties Learning Platform offers a dynamic and immersive STEM education experience that empowers learners of all ages and backgrounds. By seamlessly blending interactive technology with a comprehensive STEM curriculum, we provide a platform where users can engage with hands-on learning activities, access high-quality educational content, and track their progress. Our responsive interface ensures accessibility across various devices, while our commitment to inspiring engagement and fostering a lifelong love for learning sets us apart. Whether you're a student seeking to expand your knowledge or an educator looking to enhance your teaching resources, Twisties Learning Platform is your gateway to a world of limitless learning opportunities in science, technology, engineering, and mathematics 
 
 ![Twisties Learning Platform Mockup for different screen sizes](images/MockUp.jpg)
 
@@ -94,3 +94,5 @@ The choice of a blue, grey, and white color scheme for the Twisties Learning Pla
 4. **Cleanliness and Simplicity**: White is often associated with cleanliness, simplicity, and purity. By incorporating white into the color scheme, the platform achieves a clean and minimalist aesthetic, which can enhance readability and user experience.
 
 5. **Accessibility and Readability**: Blue and grey are typically high-contrast colors when paired with white, which can improve accessibility and readability, particularly for text and interactive elements.
+
+## DEVELOPMENT
