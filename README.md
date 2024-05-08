@@ -9,7 +9,7 @@ Twisties Learning Platform offers a dynamic and immersive STEM education experie
 1. [Requirements](#requirements)
 2. [Usecase](#usecase)
 2. [Design](#product-design)
-3. [Development](#installation)
+3. [Development](#development)
 4. [Testing](#testing)
 5. [Credits](#credit)
 6. [License](#license)
