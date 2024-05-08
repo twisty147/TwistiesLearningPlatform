@@ -96,3 +96,8 @@ The choice of a blue, grey, and white color scheme for the Twisties Learning Pla
 5. **Accessibility and Readability**: Blue and grey are typically high-contrast colors when paired with white, which can improve accessibility and readability, particularly for text and interactive elements.
 
 ## DEVELOPMENT
+
+The Waterfall Iterative Development Life Cycle (WIDLC) methodology was selected for the development of the Twisties Learning Platform. The WIDLC methodology follows a sequential, step-by-step process, with each phase building upon the results of the previous phase. However, it incorporates iterative elements, allowing for feedback and adjustments throughout the development lifecycle. It offered a structured approach to the development of the Twisties Learning Platform, allowing for thorough planning, design, implementation, testing, deployment, and maintenance.  This methodology was selected because the project requirements were well-defined, stable, and unlikely to change significantly throughout the development process.
+
+
+
