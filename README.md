@@ -95,7 +95,7 @@ The choice of a blue, grey, and white colour scheme for the Twisties Learning Pl
 4. **Cleanliness and Simplicity**: White is often associated with cleanliness, simplicity, and purity. By incorporating white into the colour scheme, the platform achieves a clean and minimalist aesthetic, which can enhance readability and user experience.
 
 5. **Accessibility and Readability**: Blue and grey are typically high-contrast colours paired with white, improving accessibility and readability, particularly for text and interactive elements.
-
+[Back to Top](#requirements)
 
 ## DEVELOPMENT
 
@@ -160,6 +160,7 @@ A JavaScript function `getParameterByName(name, url)` is implemented to retrieve
 ### Sample Quiz Questions
 The image below shows a sample of the quiz page.
 ![Sample Quiz](images/sample%20quiz.png)
+[Back to Top](#requirements)
 
 ## TESTING
 
@@ -293,6 +294,8 @@ The website was deployed on Git pages with the following steps (Assuming you are
  - Click on "Save".
  - After enabling GitHub Pages, GitHub provided a URL where the site was published (https://twisty147.github.io/TwistiesLearningPlatform/).
  - If you have a custom domain, configure it in the "Custom domain" field in the GitHub Pages settings. You'll need to set up DNS records accordingly.
+[Back to Top](#requirements)
+
 
 ## CREDITS
 
