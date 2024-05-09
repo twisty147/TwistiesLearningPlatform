@@ -95,6 +95,8 @@ The choice of a blue, grey, and white color scheme for the Twisties Learning Pla
 
 5. **Accessibility and Readability**: Blue and grey are typically high-contrast colors when paired with white, which can improve accessibility and readability, particularly for text and interactive elements.
 
+
+
 ## DEVELOPMENT
 
 The Waterfall Iterative Development Life Cycle (WIDLC) methodology was selected for the development of the Twisties Learning Platform. The WIDLC methodology follows a sequential, step-by-step process, with each phase building upon the results of the previous phase. However, it incorporates iterative elements, allowing for feedback and adjustments throughout the development lifecycle. It offered a structured approach to the development of the Twisties Learning Platform, allowing for thorough planning, design, implementation, testing, deployment, and maintenance.  This methodology was selected because the project requirements were well-defined, stable, and unlikely to change significantly throughout the development process.
@@ -150,7 +152,6 @@ A JavaScript function `getParameterByName(name, url)` is implemented to retrieve
 - The HTML content is inserted into the designated quiz form element in the DOM (`<div id="quizForm"></div>`).
 ![Populating Quiz Forms](images/porpulateQuizform.png)
 
-
 ### Switch Case for Subject Selection
 - After retrieving the subject title from the URL parameter, a switch case statement is used to determine which subject's quiz questions to populate.
 - Based on the subject title, the corresponding function to populate quiz questions is called.
@@ -159,6 +160,47 @@ A JavaScript function `getParameterByName(name, url)` is implemented to retrieve
 ### Sample Quiz Questions
 The image below shows a sample of the quiz page.
 ![Sample Quiz](images/sample%20quiz.png)
+
+
+## TESTING
+
+### Usability Testing
+The site demonstrates adherence to Norman and Nielsen's design principles of:
+
+1. **Visibility**:
+   - The navigation bar at the top of the page is clearly visible and provides immediate access to essential sections like Home, Courses, Sign Up, and Login.
+   - The use of contrasting colors for buttons and links makes them easily distinguishable from other page elements, enhancing their visibility.
+   ![Sample Quiz](images/Visibility.png)
+
+2. **Feedback**:
+   - Interactive elements, such as buttons, modals, lerts and links, provide immediate visual feedback upon interaction, such as changing color or appearance.
+   - The use of hover effects on cards provides feedback to users when they hover over them, indicating that they are clickable.
+   - The mouse pointer changes when you hover a clickable element on the website.
+   ![Sample Quiz](images/feedback.png)
+
+3. **Affordance**:
+   - Buttons and links are styled to look clickable, indicating their function and encouraging user interaction.
+   - The search input field and button in the dictionary section afford the action of searching for a word, clearly indicating their purpose.
+
+4. **Consistency**:
+   - The layout and design elements, such as typography, colors, and spacing, are consistent throughout the website, providing a cohesive user experience.
+   - Navigation elements, like the navbar and buttons, maintain consistent styling across different sections of the website.
+
+5. **Error Prevention and Recovery**:
+   -form inputs are validated before submission to prevent user errors, and by providing clear error messages and guidance for users in case of input mistakes.
+    ![Sample Quiz](images/ErrorPrevention.png)
+
+6. **Flexibility and Efficiency of Use**:
+   - The layout is designed to be responsive, ensuring that the website is usable across various devices and screen sizes, thus accommodating a wide range of users efficiently.
+    ![Sample Quiz](images/Responsive.png)
+    ![Sample Quiz](images/Responsive2.png)
+
+7. **Aesthetic and Minimalist Design**:
+   - The use of a clean and minimalist design approach, evident in the consistent layout, typography, and use of white space, contributes to an aesthetically pleasing user interface.
+
+### Functional Testing
+
+
 
 
 
