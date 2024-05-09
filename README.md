@@ -276,6 +276,8 @@ The site demonstrates adherence to Norman and Nielsen's design principles of:
 ## Solution for the above
 
 ![Solution for above](images/cssforiframe.png)
+
+## Other Errors
 ![Stray Div Tag](images/StrayDiv.png)
 ![No issues with CSS](images/cssValidation.png)
 
