@@ -295,7 +295,7 @@ The site demonstrates adherence to Norman and Nielsen's design principles of:
 The website was deployed on Git pages with the following steps (Assuming you are already logged in to GitHub)
  - Go to Twisties learning platform repository on GitHub
  - Ensure the repository contains the necessary files for the Twisties learning platform, including an `index.html` file as the entry point.
- - Ensured additional assets like CSS, JavaScript, and images were present in the Repo.
+ - Ensure additional assets like CSS, JavaScript, and images are present in the Repo.
  - Click on the "Settings" tab on the Twisties Learning platform repository.
  - Scroll down to the "GitHub Pages" section.
  - Under "Source", select the branch that contains Twisties learning platform code. 
