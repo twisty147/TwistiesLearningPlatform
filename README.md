@@ -271,8 +271,9 @@ The site demonstrates adherence to Norman and Nielsen's design principles of:
 - Revalidate the document after fixing errors to ensure compliance.
 
 **Images Showing some validation Results HTML/CSS**
-**Solution for above**
+
 ![Iframe Frame Border Obsolate](images/FrameBorderObsolate.png)
+##Solution for the above
 ![Solution for above](images/cssforiframe.png)
 ![Stray Div Tag](images/StrayDiv.png)
 ![No issues with CSS](images/cssValidation.png)
