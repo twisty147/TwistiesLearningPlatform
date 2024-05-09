@@ -162,12 +162,19 @@ A JavaScript function `getParameterByName(name, url)` is implemented to retrieve
 The image below shows a sample of the quiz page.
 ![Sample Quiz](images/sample%20quiz.png)
 
+### Function: calculateScore()
+The JavaScript function `calculateScore()` is designed to calculate the score of a quiz based on the user's selected answers and provide feedback to the user. 
+- The code begins by adding an event listener to a submit button with the id `submitQuizButton`. When the submit button is clicked, the `calculateScore()` function is called.
+- The function defines correct answers for multiple-choice questions in various subjects, including Civil Engineering, Economics, Computer Science, Chemistry, Biology, and Physics. Each subject's correct answers are stored in separate objects.
+- Based on the title of the quiz (presumably obtained from the webpage), the function determines which set of correct answers to use. This is done using a switch statement that checks the title against predefined subjects and assigns the appropriate set of correct answers.
+- The function then retrieves the form containing the quiz questions (`quizForm`) and initializes a variable `score` to keep track of the user's score. It iterates over each question and checks the selected answer against the corresponding correct answer. If the selected answer matches the correct answer, the score is incremented.
+- After scoring all questions, the function provides feedback to the user via alert messages. If the user's score is greater than 3 (out of the total number of questions), a congratulatory message is displayed along with the score. Once the ok button is clicked the function redirects the user to the `courses.html` page using `window.location.href`.. Otherwise, a message prompting the user to try again is shown.
+
 ### 404 Redirect
 The code was writen such that users who direct to a non-existent page or resource are redirected back to the main page without having to use browser navigation buttons. The script below was added to the `404.html` page.
 ![404 Script](images/404Script.png)
 
 [Back to Top](#requirements)
-
 
 
 ## TESTING
