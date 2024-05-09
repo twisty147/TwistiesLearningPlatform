@@ -252,6 +252,30 @@ The site demonstrates adherence to Norman and Nielsen's design principles of:
    
 
 
+### Testing HTML with W3C Markup Validation Service
+
+**Accessing the Validator:**- Navigate to the [W3C Markup Validation Service/Jigsaw](https://validator.w3.org/)(https://jigsaw.w3.org/css-validator/validator).
+
+**Uploading HTML File or Entering URL:**- Paste the HTML file directly or enter the URL of the webpage to be validated.
+
+**Initiating Validation:**- Click on the "Check" or "Validate" button to start the validation process.
+
+**Reviewing Results:**
+  - The validator will analyze the HTML document and provide a detailed report of any errors, warnings, or suggestions.
+  - Errors indicate serious issues that need immediate attention.
+  - Warnings highlight potential problems that may impact usability or accessibility.
+  - Suggestions offer recommendations for improving the code structure or adherence to best practices.
+
+**Addressing Issues:**
+- Review each reported issue and make necessary corrections to the HTML code.
+- Revalidate the document after fixing errors to ensure compliance.
+
+**Images Showing some validation Results HTML/CSS**
+![Iframe Frame Border Obsolate](images/FrameBorderObsolate.png)
+![Solution for above](images/cssforiframe.png)
+![Stray Div Tag](images/StrayDiv.png)
+![No issues with CSS](images/cssValidation.png)
+
 
 
 
