@@ -8,12 +8,12 @@ Twisties Learning Platform offers a dynamic and immersive STEM education experie
 
 1. [Requirements](#requirements)
 2. [Usecase](#usecase)
-2. [Design](#product-design)
-3. [Development](#development)
-4. [Testing](#testing)
-5. [Deployment](#deployment)
-5. [Credits](#credit)
-6. [License](#license)
+3. [Design](#product-design)
+4. [Development](#development)
+5. [Testing](#testing)
+6. [Deployment](#deployment)
+7. [Credits](#credit)
+8. [License](#license)
 
 ## REQUIREMENTS
 
@@ -294,7 +294,52 @@ The website was deployed on Git pages with the following steps (Assuming you are
  - After enabling GitHub Pages, GitHub provided a URL where the site was published (https://twisty147.github.io/TwistiesLearningPlatform/).
  - If you have a custom domain, configure it in the "Custom domain" field in the GitHub Pages settings. You'll need to set up DNS records accordingly.
 
+## CREDITS
 
+**Codeinstitute**: For the training and Code-Institute-Org/ci-full-template.
+**Stackoverflow**: Life saver when the "BUGS" attack.
+**https://dictionaryapi.dev/**: Free dictionary API that was consumed on the home page.
+**https://dev.to/gmeben/animating-gradients-with-pure-css-3bi8**:   This tutorial was used to learn how to animate the gradients for the .jumbotron class on the home page and educators page. No code was copied fron this site but it inspired the idea.
+**https://www.geeksforgeeks.org/how-to-get-url-parameters-using-javascript/**: Url parameters tutorial.
+**https://www.w3schools.com/css/css3_2dtransforms.asp**: This provided the tutorial for the CSS transition and transformation which inspired the idea for the card behaviours on Twisties learning platform. No code was copied from this site.
+**Styles for watched list items**: https://getbootstrap.com/docs/5.0/components/list-group/
+**injecting HTML from javaScript**: https://www.w3schools.com/html/html_scripts.asp
 
+### Video-Credits
+**Introduction to Physics Video**: https://youtu.be/b1t41Q3xRM8
+**Mechnics Video**:https://youtu.be/aD58U3Ib0ng
+**Themodynamics Video**:https://youtu.be/NyOYW07-L5g
+**Electricity and Magnetism Video**:https://youtu.be/79_SF5AZtzo
+**Optics video**:https://youtu.be/Oh4m8Ees-3Q
+**Introduction to Chemistry**: https://youtu.be/bka20Q9TN6M
+**Acid and Bases**:https://youtu.be/vt8fB3MFzLk
+**The periodic table**:https://youtu.be/0RRVV4Diomg
+**Chemical bonds**:https://youtu.be/AE5QcL4VfH4
+**Organic chemistry**:https://youtu.be/PmvLB5dIEp8
+**Introduction to Biology**: https://youtu.be/DTnCqBUnaRM
+**Cell biology**:https://youtu.be/vt8fB3MFzLk
+**Ecology**:https://youtu.be/t5DvF5OVr1Y
+**Evolution**:https://youtu.be/GcjgWov7mTM
+**Human anatomy**:https://youtu.be/gEUu-A2wfSE
+**Introduction to Computer**: https://youtu.be/qfUZBKDh9BY
+**Operating System**:https://youtu.be/26QPDBe-NB8
+**Hardware**:https://youtu.be/8_itvuz5Dc4
+**Software**:https://youtu.be/PBDlbSAddAI
+**Desktop Publishing**:https://youtu.be/J-3-IMlriW0
+**Introduction to Economics**: https://youtu.be/3ez10ADR_gM
+**Demand**:https://youtu.be/LwLh6ax0zTE
+**Supply**:https://youtu.be/ewPNugIqCUM
+**Trade**:https://youtu.be/dmqoqVwFopE
+**Taxation**:https://youtu.be/7Qtr_vA3Prw
+**Introduction to Civil Engineering**: https://youtu.be/LCyZFTEyNoo
+**Building Materials**:https://youtu.be/a1cQcIJfjPw
+**Construction**:https://youtu.be/mbwuj58UEPg
+**Surveying**:https://youtu.be/VD1ltgO_iaw
+**Engineering Technology**:https://youtu.be/5zDcHJn4oj0
 
-
+### Image-Credits
+**Chemistry-Course**: https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcTCpqjYfnERcAZCS_kHZyfyIXhutGCZo37zoxPlhvU9VjmmO32I
+**Physics-Course**: https://bike.bikegremlin.com/3447/theory_vs_practice/
+**Computer-Course**:https://cornershopcreative.com/blog/getting-started-accessibility/
+**Economics-Course**: https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcTXzSJC2iodq76AcbhPjeguB1qE1PRU_lAAkHhvVJPC0a2AkSu1
+**Civil-Engineering-Course**: https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcSTerS7gmhN9LHPiqBeGKmeZ-Cwx-m9vvHENdbtQJOTvyzQRH4e
