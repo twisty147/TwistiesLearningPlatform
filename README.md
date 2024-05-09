@@ -273,7 +273,8 @@ The site demonstrates adherence to Norman and Nielsen's design principles of:
 **Images Showing some validation Results HTML/CSS**
 
 ![Iframe Frame Border Obsolate](images/FrameBorderObsolate.png)
-##Solution for the above
+## Solution for the above
+
 ![Solution for above](images/cssforiframe.png)
 ![Stray Div Tag](images/StrayDiv.png)
 ![No issues with CSS](images/cssValidation.png)
