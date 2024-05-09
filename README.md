@@ -163,7 +163,7 @@ The image below shows a sample of the quiz page.
 ![Sample Quiz](images/sample%20quiz.png)
 
 ### 404 Redirect
-The code was writen such that users who direct to a non-existent page or resource are redirected back to the main page without having to use browser navigation buttons. 
+The code was writen such that users who direct to a non-existent page or resource are redirected back to the main page without having to use browser navigation buttons. The script below was added to the `404.html` page.
 ![404 Script](images/404Script.png)
 
 [Back to Top](#requirements)
