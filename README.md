@@ -345,3 +345,21 @@ The website was deployed on Git pages with the following steps (Assuming you are
 - **Computer-Course**:https://cornershopcreative.com/blog/getting-started-accessibility/
 - **Economics-Course**: https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcTXzSJC2iodq76AcbhPjeguB1qE1PRU_lAAkHhvVJPC0a2AkSu1
 - **Civil-Engineering-Course**: https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcSTerS7gmhN9LHPiqBeGKmeZ-Cwx-m9vvHENdbtQJOTvyzQRH4e
+
+# License
+
+Copyright (c) 2024 Oliver Amah
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this website, to deal
+in the website without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, copies of the website, 
+and to permit persons to whom the website is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the website.
+
+IN NO EVENT SHALL THE AUTHOR BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE Website.
