@@ -1,6 +1,6 @@
 # Twisties Learning Platform
 
-Twisties Learning Platform offers a dynamic and immersive STEM education experience that empowers learners of all ages and backgrounds. By seamlessly blending interactive technology with a comprehensive STEM curriculum, we provide a platform where users can engage with hands-on learning activities, access high-quality educational content, and track their progress. Our responsive interface ensures accessibility across various devices, while our commitment to inspiring engagement and fostering a lifelong love for learning sets us apart. Whether you're a student seeking to expand your knowledge or an educator looking to enhance your teaching resources, Twisties Learning Platform is your gateway to a world of limitless learning opportunities in science, technology, engineering, and mathematics 
+Twisties Learning Platform offers a dynamic and immersive STEM education experience that empowers learners of all ages and backgrounds. By seamlessly blending interactive technology with a comprehensive STEM curriculum, we provide a platform where users can engage with hands-on learning activities, access high-quality educational content, and track their progress. Our responsive interface ensures accessibility across various devices, while our commitment to inspiring engagement and fostering a lifelong love for learning sets us apart. Whether you're a student seeking to expand your knowledge or an educator looking to enhance your teaching resources, Twisties Learning Platform is your gateway to a world of limitless learning opportunities in science, technology, engineering, and mathematics. 
 
 ![Twisties Learning Platform Mockup for different screen sizes](images/MockUp.jpg)
 
@@ -198,7 +198,59 @@ The site demonstrates adherence to Norman and Nielsen's design principles of:
 7. **Aesthetic and Minimalist Design**:
    - The use of a clean and minimalist design approach, evident in the consistent layout, typography, and use of white space, contributes to an aesthetically pleasing user interface.
 
-### Functional Testing
+### Functional Testing (Manual Test Result)
+**Home Page**
+1. **Dictionary**:
+   - [x] Verify that the dictionary feature is prominently displayed on Home page. (Pass)
+   - [x] Test search functionality with different STEM terms. (Pass)
+
+2. **Featured Lessons**:
+   - [x] Check that featured lessons are showcased. (Pass)
+   - [x] Click to ensure redirection to course pages. (Pass)
+
+3. **Testimonials**:
+   - [x] Confirm presence of testimonials. (Pass)
+
+**Educator Section**
+1. **Call to Action**:
+   - [x] Ensure educator section is visible on home page. (Pass)
+   - [x] Test that sign up and log in are visible (Pass)
+
+2. **Sign Up & Login**:
+   - [x] Test educator sign-up process. (Pass Validation/ Process incomplete (No database))
+   - [x] Verify login functionality. (Pass Visibility/process incomplete (No database))
+
+**Courses Page**
+1. **Available Courses**:
+   - [x] Check list of courses and categories. (Pass)
+   - [x] Ensure redirection to course details. (Pass)
+
+2. **Course Content**:
+   - [x] Verify clear course structure. (Pass)
+   - [x] Test navigation between sections. (Pass)
+
+3. **Video Tutorials**:
+   - [x] Ensure videos play correctly. (Pass)
+   - [x] Test pause, play, volume controls. (Pass)
+
+**Quiz Feature**
+1. **End-of-Course Quiz**:
+   - [x] Confirm prompt after course completion. (Pass)
+   - [x] Test relevance of quiz questions. (Pass)
+
+2. **Score Display**:
+   - [x] Verify immediate score display. (Pass)
+   - [x] Check feedback on answers. (Fail: Does not display correct answers because it was not implemented)
+
+**General Requirements**
+1. **Responsive Design**:
+   - [x] Test on various devices. (Pass)
+   - [x] Check for layout issues. (Pass)
+
+2. **Progress Tracking**:
+   - [x] Test progress indicators. (Pass)
+   
+
 
 
 

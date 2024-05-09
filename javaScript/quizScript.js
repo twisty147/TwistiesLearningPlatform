@@ -21,11 +21,12 @@ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 */
+//Original Code: Means that I wrote the code myself (*ofcause you know I had to seek for solutions to my bugs on stackoverflow*)
 
-
-// Function to retrieve the value of a URL parameter by name
+// original Code: Function to retrieve the value of a URL parameter by name
 function getParameterByName(name, url) {
     if (!url) url = window.location.href;
+    //this regular expression was copied from stackoverflow
     name = name.replace(/[\[\]]/g, '\\$&');
     var regex = new RegExp('[?&]' + name + '(=([^&#]*)|&|#|$)'),
         results = regex.exec(url);
@@ -43,7 +44,7 @@ var quizTitleElement = document.querySelector('.quiz-title');
 if (title) {
     quizTitleElement.textContent = title + ' Quiz';
 }
-// Dynamically load questions based on the subject in view
+//original Code: Dynamically load questions based on the subject in view
 switch (title) {
     case 'Introduction to Physics':
         populatePhysicsQuestions();
@@ -63,12 +64,12 @@ switch (title) {
     case 'Introduction to Civil Engineering':
         populateCEQuestions();
         break;
-    // Add more cases for other subjects as needed
+    
     default:
         // If the subject is not recognized,show an error message
         console.error('Unknown subject:', title);
 }
-// Function to populate the quiz form with physics questions
+//original Code: Function to populate the quiz form with physics questions
 function populatePhysicsQuestions() {
     var quizForm = document.getElementById('quizForm');
     // Dynamically generate HTML for physics questions with radio button options
@@ -134,7 +135,7 @@ function populatePhysicsQuestions() {
     `;
 
 }
-// Function to populate the quiz form with biology questions
+//original Code: Function to populate the quiz form with biology questions
 function populateBiologyQuestions() {
     var quizForm = document.getElementById('quizForm');
     // Dynamically generate HTML for biology questions with radio button options
@@ -200,7 +201,7 @@ function populateBiologyQuestions() {
 }
 function populateChemistryQuestions() {
     var quizForm = document.getElementById('quizForm');
-    // Dynamically generate HTML for chemistry questions with radio button options
+    //original Code: Dynamically generate HTML for chemistry questions with radio button options
     quizForm.innerHTML = `
     <label for="question1"><b>Question 1: What is an atom?</b></label>
     <div>
@@ -262,7 +263,7 @@ function populateChemistryQuestions() {
 }
 function populateComputerQuestions() {
     var quizForm = document.getElementById('quizForm');
-    // Dynamically generate HTML for computer science questions with radio button options
+    //original Code: Dynamically generate HTML for computer science questions with radio button options
     quizForm.innerHTML = `
     <label for="question1"><b>Question 1: What is a programming language?</b></label>
     <div>
@@ -325,7 +326,7 @@ function populateComputerQuestions() {
 }
 function populateEconomicsQuestions() {
     var quizForm = document.getElementById('quizForm');
-    // Dynamically generate HTML for economics questions with radio button options
+    //original Code: Dynamically generate HTML for economics questions with radio button options
     quizForm.innerHTML = `
     <label for="question1"><b>Question 1: What is scarcity in economics?</b></label>
     <div>
@@ -387,7 +388,7 @@ function populateEconomicsQuestions() {
 }
 function populateCEQuestions() {
     var quizForm = document.getElementById('quizForm');
-    // Dynamically generate HTML for civil engineering questions with radio button options
+    //original Code: Dynamically generate HTML for civil engineering questions with radio button options
     quizForm.innerHTML = `
     <label for="question1"><b>Question 1: What is the purpose of a foundation in civil engineering?</b></label>
     <div>
@@ -452,7 +453,7 @@ function populateCEQuestions() {
 var submitButton = document.getElementById('submitQuizButton');
 submitButton.addEventListener('click', calculateScore);
 
-// Function to calculate the score
+//original Code: Function to calculate the score
 function calculateScore() {
     //Define correct answers
     var correctCEQuestionAnswers = {
@@ -527,7 +528,7 @@ function calculateScore() {
     var quizForm = document.getElementById('quizForm');
     var score = 0;
 
-    // Loop through each question and check the selected answer against the correct answer
+    //original Code: Loop through each question and check the selected answer against the correct answer
     for (var question in correctAnswers) {
         var selectedAnswer = quizForm.querySelector('input[name="' + question + '"]:checked');
         if (selectedAnswer && selectedAnswer.value === correctAnswers[question]) {
@@ -535,7 +536,7 @@ function calculateScore() {
         }
     }
 
-    // Display the score
+    //original Code: Display the score
     if (score > 3) {
         alert('Your score is: ' + score + '/' + Object.keys(correctAnswers).length + '. Well done!');
         window.location.href = 'courses.html';
