@@ -12,7 +12,7 @@ Twisties Learning Platform offers a dynamic and immersive STEM education experie
 4. [Development](#development)
 5. [Testing](#testing)
 6. [Deployment](#deployment)
-7. [Credits](#credit)
+7. [Credits](#credits)
 8. [License](#license)
 
 ## REQUIREMENTS
@@ -351,8 +351,7 @@ The website was deployed on Git pages with the following steps (Assuming you are
 Copyright (c) 2024 Oliver Amah
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
-of this website, to deal
-in the website without restriction, including without limitation the rights
+of this website without restriction, including without limitation the rights
 to use, copy, modify, merge, publish, distribute, copies of the website, 
 and to permit persons to whom the website is
 furnished to do so, subject to the following conditions:
