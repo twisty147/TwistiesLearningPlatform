@@ -26,54 +26,53 @@ SOFTWARE.
 
 // original Code: Function to fetch and display dictionary results in a modal
 function searchWord() {
-  const searchInput = document.getElementById('dictionaryInput').value;
+  const searchInput = document.getElementById("dictionaryInput").value;
   const apiUrl = `https://api.dictionaryapi.dev/api/v2/entries/en/${searchInput}`;
-
   fetch(apiUrl)
     .then(response => response.json())
     .then(data => {
       displayDictionaryResultsInModal(data);
     })
     .catch(error => {
-      console.error('Error fetching data:', error);
+      console.error("Error fetching data:", error);
     });
 }
 
 // original Code:  Function to dynamically display dictionary results in the modal body
 function displayDictionaryResultsInModal(data) {
-  const modalBody = document.getElementById('dictionaryModalBody');
-  modalBody.innerHTML = '';
+  const modalBody = document.getElementById("dictionaryModalBody");
+  modalBody.innerHTML = "";
 
   // Iterate through each dictionary entry
   data.forEach(entry => {
-    const entryElement = document.createElement('div');
-    entryElement.classList.add('card', 'mb-3');
+    const entryElement = document.createElement("div");
+    entryElement.classList.add("card", "mb-3");
 
-    const entryBody = document.createElement('div');
-    entryBody.classList.add('card-body');
+    const entryBody = document.createElement("div");
+    entryBody.classList.add("card-body");
 
     // original Code: Display word title
-    const wordTitle = document.createElement('h4');
-    wordTitle.classList.add('card-title');
+    const wordTitle = document.createElement("h4");
+    wordTitle.classList.add("card-title");
     wordTitle.textContent = entry.word;
     entryBody.appendChild(wordTitle);
 
     // original Code: Display phonetic details
     entry.phonetics.forEach(phonetic => {
-      const phoneticText = document.createElement('p');
+      const phoneticText = document.createElement("p");
       phoneticText.textContent = `Phonetic: ${phonetic.text}`;
       entryBody.appendChild(phoneticText);
     });
 
     // original Code: Display meanings and definitions
     entry.meanings.forEach(meaning => {
-      const partOfSpeech = document.createElement('h5');
-      partOfSpeech.classList.add('card-subtitle', 'mb-2');
+      const partOfSpeech = document.createElement("h5");
+      partOfSpeech.classList.add("card-subtitle", "mb-2");
       partOfSpeech.textContent = meaning.partOfSpeech;
       entryBody.appendChild(partOfSpeech);
 
       meaning.definitions.forEach(definition => {
-        const definitionText = document.createElement('p');
+        const definitionText = document.createElement("p");
         definitionText.textContent = `Definition: ${definition.definition}`;
         entryBody.appendChild(definitionText);
       });
@@ -85,7 +84,7 @@ function displayDictionaryResultsInModal(data) {
   });
 
   // original Code: Open the modal
-  $('#dictionaryModal').modal('show');
+  $("#dictionaryModal").modal("show");
 }
 
 // original Code: Function to inform the user that login functionality is not available
@@ -97,9 +96,9 @@ function validateLogin() {
 // original Code: Function to validate the signup form
 function validateForm() {
   // Retrieve input values
-  var username = document.getElementById('inputUsername').value;
-  var email = document.getElementById('inputEmail').value;
-  var password = document.getElementById('inputPassword').value;
+  var username = document.getElementById("inputUsername").value;
+  var email = document.getElementById("inputEmail").value;
+  var password = document.getElementById("inputPassword").value;
 
   // original Code: Validate email format using regular expression
   var emailRegex = /^\w+@[a-zA-Z_]+?\.[a-zA-Z]{2,3}$/;//this regular expression was copied from stackoverflow
@@ -127,7 +126,7 @@ function showProcessingMessage() {
 
 // original Code: Parse the query parameters
 const params = new URLSearchParams(window.location.search);
-const courseName = params.get('course');
+const courseName = params.get("course");
 // original Code: Define course content for each course
 const courseContent = {
   physics: [
@@ -177,47 +176,47 @@ const courseContent = {
 // original Code: Populate course details based on the course name
 if (courseName in courseContent) {
   const content = courseContent[courseName];
-  const courseTopics = document.getElementById('courseTopics');
-  courseTopics.innerHTML = ''; // Clear existing content
+  const courseTopics = document.getElementById("courseTopics");
+  courseTopics.innerHTML = ""; // Clear existing content
 
   // Populate course content
   content.forEach(topic => {
-    const listItem = document.createElement('li');
-    listItem.className = 'list-group-item';
+    const listItem = document.createElement("li");
+    listItem.className = "list-group-item";
     listItem.textContent = topic.title;
     listItem.dataset.video = topic.video;
     courseTopics.appendChild(listItem);
   });
 } else {
   // original Code: Handle invalid course name
-  console.error('Invalid course name:', courseName);
+  console.error("Invalid course name:", courseName);
 }
 
 // original Code: Populate course details based on the course name
-if (courseName === 'physics') {
+if (courseName === "physics") {
   // Populate details for Physics course
-  document.getElementById('courseTitle').innerText = 'Introduction to Physics';
-  document.getElementById('courseDescription').innerText = 'Explore the fundamental principles of physics in this interactive course1.';
-} else if (courseName === 'chemistry') {
-  document.getElementById('courseTitle').innerText = 'Introduction to Chemistry';
-  document.getElementById('courseDescription').innerText = 'Explore the fundamental principles of Chemistry in this interactive course.';
+  document.getElementById("courseTitle").innerText = "Introduction to Physics";
+  document.getElementById("courseDescription").innerText = "Explore the fundamental principles of physics in this interactive course1.";
+} else if (courseName === "chemistry") {
+  document.getElementById("courseTitle").innerText = "Introduction to Chemistry";
+  document.getElementById("courseDescription").innerText = "Explore the fundamental principles of Chemistry in this interactive course.";
 
 }
-else if (courseName === 'biology') {
-  document.getElementById('courseTitle').innerText = 'Introduction to Biology';
-  document.getElementById('courseDescription').innerText = 'Explore the fundamental principles of Biology in this interactive course.';
+else if (courseName === "biology") {
+  document.getElementById("courseTitle").innerText = "Introduction to Biology";
+  document.getElementById("courseDescription").innerText = "Explore the fundamental principles of Biology in this interactive course.";
 }
-else if (courseName === 'computer') {
-  document.getElementById('courseTitle').innerText = 'Introduction to Computer';
-  document.getElementById('courseDescription').innerText = 'Explore the fundamental principles of Computer in this interactive course.';
+else if (courseName === "computer") {
+  document.getElementById("courseTitle").innerText = "Introduction to Computer";
+  document.getElementById("courseDescription").innerText = "Explore the fundamental principles of Computer in this interactive course.";
 }
-else if (courseName === 'economics') {
-  document.getElementById('courseTitle').innerText = 'Introduction to Economics';
-  document.getElementById('courseDescription').innerText = 'Explore the fundamental principles of Economics in this interactive course.';
+else if (courseName === "economics") {
+  document.getElementById("courseTitle").innerText = "Introduction to Economics";
+  document.getElementById("courseDescription").innerText = "Explore the fundamental principles of Economics in this interactive course.";
 }
-else if (courseName === 'civilEngineering') {
-  document.getElementById('courseTitle').innerText = 'Introduction to Civil Engineering';
-  document.getElementById('courseDescription').innerText = 'Explore the fundamental principles of Civil Engineering in this interactive course.';
+else if (courseName === "civilEngineering") {
+  document.getElementById("courseTitle").innerText = "Introduction to Civil Engineering";
+  document.getElementById("courseDescription").innerText = "Explore the fundamental principles of Civil Engineering in this interactive course.";
 }
 
 
@@ -225,7 +224,7 @@ else if (courseName === 'civilEngineering') {
 document.addEventListener("DOMContentLoaded", function () {
   // Function to load YouTube video based on selected topic
   function loadVideo(videoId) {
-    var videoPlayer = document.getElementById('videoPlayer');
+    var videoPlayer = document.getElementById("videoPlayer");
     videoPlayer.innerHTML = '<iframe width="560" height="315" src="https://www.youtube.com/embed/' + videoId + '?si=yiDg2PJRDOX2CREn" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>';
   }
 
@@ -233,24 +232,24 @@ document.addEventListener("DOMContentLoaded", function () {
   function markAsWatched(videoId) {
     var listItem = document.querySelector('li[data-video="' + videoId + '"]');
     if (listItem) {
-      listItem.classList.add('watched');
+      listItem.classList.add("watched");
       //original Code:  Check if all videos are watched
-      var allWatched = Array.from(document.querySelectorAll('li[data-video]')).every(function (item) {
-        return item.classList.contains('watched');
+      var allWatched = Array.from(document.querySelectorAll("li[data-video]")).every(function (item) {
+        return item.classList.contains("watched");
       });
       if (allWatched) {
         //original Code:  Get the course title
-        var courseTitle = document.getElementById('courseTitle').textContent;
+        var courseTitle = document.getElementById("courseTitle").textContent;
 
         //original Code:  Show modal congratulating the user and providing physics quiz link
-        $('#completionModal').modal('show');
+        $("#completionModal").modal("show");
 
         //original Code:  Add "Take Quiz" link under topic list
-        var quizLink = document.createElement('a');
-        quizLink.href = 'quiz.html?title=' + encodeURIComponent(courseTitle); // Append the course title as a parameter
-        quizLink.textContent = 'Take Quiz';
-        quizLink.classList.add('btn', 'btn-primary', 'mt-3');
-        document.querySelector('.col-md-4').appendChild(quizLink);
+        var quizLink = document.createElement("a");
+        quizLink.href = "quiz.html?title=" + encodeURIComponent(courseTitle); // Append the course title as a parameter
+        quizLink.textContent = "Take Quiz";
+        quizLink.classList.add("btn", "btn-primary", "mt-3");
+        document.querySelector(".col-md-4").appendChild(quizLink);
       }
     }
   }
@@ -262,7 +261,7 @@ document.addEventListener("DOMContentLoaded", function () {
   function loadInitialVideo() {
     // Parse the query parameters
     const params = new URLSearchParams(window.location.search);
-    const courseName = params.get('course');
+    const courseName = params.get("course");
 
     // original Code: Define the initial video for each course
     const initialVideos = {
@@ -280,16 +279,16 @@ document.addEventListener("DOMContentLoaded", function () {
       loadVideo(initialVideoId);
       markAsWatched(initialVideoId);
     } else {
-      console.error('Invalid course name:', courseName);
+      console.error("Invalid course name:", courseName);
     }
   }
 
   //original Code:  Event listener for course topics
-  var courseTopics = document.getElementById('courseTopics');
-  courseTopics.addEventListener('click', function (event) {
+  var courseTopics = document.getElementById("courseTopics");
+  courseTopics.addEventListener("click", function (event) {
     var target = event.target;
-    if (target.tagName === 'LI') {
-      var videoId = target.getAttribute('data-video');
+    if (target.tagName === "LI") {
+      var videoId = target.getAttribute("data-video");
       loadVideo(videoId);
       markAsWatched(videoId);
     }
@@ -309,19 +308,20 @@ $(document).ready(function () {
   setCourseTitle();
 
   //original Code:  Function to handle modal display
-  $('#completionModal').on('show.bs.modal', function (e) {
-    setCourseTitle(); // Set the course title dynamically every time the modal is shown
+  $("#completionModal").on("show.bs.modal", function (e) {
+    // Set the course title dynamically every time the modal is shown
+    setCourseTitle();
   });
 });
 
 //original Code:  Function to handle click event of the "Take Quiz" button
-document.getElementById('takeQuizBtn').addEventListener('click', function () {
+document.getElementById("takeQuizBtn").addEventListener("click", function () {
   // Get the course title
-  var courseTitle = document.getElementById('courseTitle').innerText;
+  var courseTitle = document.getElementById("courseTitle").innerText;
   // Encode the course title to be used in the URL
   var encodedCourseTitle = encodeURIComponent(courseTitle);
   // Append the course title to the URL of the quiz page
-  var quizURL = 'quiz.html?title=' + encodedCourseTitle;
+  var quizURL = "quiz.html?title=" + encodedCourseTitle;
   // Redirect the user to the quiz page with the course title
   window.location.href = quizURL;
 });
