@@ -308,40 +308,40 @@ The website was deployed on Git pages with the following steps (Assuming you are
 - **HTML Script Injection Tutorial**: Consulted for guidance on injecting HTML from JavaScript into the project `https://www.w3schools.com/html/html_scripts.asp`.
 
 ### Video-Credits
--**Introduction to Physics Video**: https://youtu.be/b1t41Q3xRM8
--**Mechnics Video**:https://youtu.be/aD58U3Ib0ng
--**Themodynamics Video**:https://youtu.be/NyOYW07-L5g
--**Electricity and Magnetism Video**:https://youtu.be/79_SF5AZtzo
--**Optics video**:https://youtu.be/Oh4m8Ees-3Q
--**Introduction to Chemistry**: https://youtu.be/bka20Q9TN6M
--**Acid and Bases**:https://youtu.be/vt8fB3MFzLk
--**The periodic table**:https://youtu.be/0RRVV4Diomg
--**Chemical bonds**:https://youtu.be/AE5QcL4VfH4
--**Organic chemistry**:https://youtu.be/PmvLB5dIEp8
--**Introduction to Biology**: https://youtu.be/DTnCqBUnaRM
--**Cell biology**:https://youtu.be/vt8fB3MFzLk
--**Ecology**:https://youtu.be/t5DvF5OVr1Y
--**Evolution**:https://youtu.be/GcjgWov7mTM
--**Human anatomy**:https://youtu.be/gEUu-A2wfSE
--**Introduction to Computer**: https://youtu.be/qfUZBKDh9BY
--**Operating System**:https://youtu.be/26QPDBe-NB8
--**Hardware**:https://youtu.be/8_itvuz5Dc4
--**Software**:https://youtu.be/PBDlbSAddAI
--**Desktop Publishing**:https://youtu.be/J-3-IMlriW0
--**Introduction to Economics**: https://youtu.be/3ez10ADR_gM
--**Demand**:https://youtu.be/LwLh6ax0zTE
--**Supply**:https://youtu.be/ewPNugIqCUM
--**Trade**:https://youtu.be/dmqoqVwFopE
--**Taxation**:https://youtu.be/7Qtr_vA3Prw
--**Introduction to Civil Engineering**: https://youtu.be/LCyZFTEyNoo
--**Building Materials**:https://youtu.be/a1cQcIJfjPw
--**Construction**:https://youtu.be/mbwuj58UEPg
--**Surveying**:https://youtu.be/VD1ltgO_iaw
--**Engineering Technology**:https://youtu.be/5zDcHJn4oj0
+- **Introduction to Physics Video**: https://youtu.be/b1t41Q3xRM8
+- **Mechnics Video**:https://youtu.be/aD58U3Ib0ng
+- **Themodynamics Video**:https://youtu.be/NyOYW07-L5g
+- **Electricity and Magnetism Video**:https://youtu.be/79_SF5AZtzo
+- **Optics video**:https://youtu.be/Oh4m8Ees-3Q
+- **Introduction to Chemistry**: https://youtu.be/bka20Q9TN6M
+- **Acid and Bases**:https://youtu.be/vt8fB3MFzLk
+- **The periodic table**:https://youtu.be/0RRVV4Diomg
+- **Chemical bonds**:https://youtu.be/AE5QcL4VfH4
+- **Organic chemistry**:https://youtu.be/PmvLB5dIEp8
+- **Introduction to Biology**: https://youtu.be/DTnCqBUnaRM
+- **Cell biology**:https://youtu.be/vt8fB3MFzLk
+- **Ecology**:https://youtu.be/t5DvF5OVr1Y
+- **Evolution**:https://youtu.be/GcjgWov7mTM
+- **Human anatomy**:https://youtu.be/gEUu-A2wfSE
+- **Introduction to Computer**: https://youtu.be/qfUZBKDh9BY
+- **Operating System**:https://youtu.be/26QPDBe-NB8
+- **Hardware**:https://youtu.be/8_itvuz5Dc4
+- **Software**:https://youtu.be/PBDlbSAddAI
+- **Desktop Publishing**:https://youtu.be/J-3-IMlriW0
+- **Introduction to Economics**: https://youtu.be/3ez10ADR_gM
+- **Demand**:https://youtu.be/LwLh6ax0zTE
+- **Supply**:https://youtu.be/ewPNugIqCUM
+- **Trade**:https://youtu.be/dmqoqVwFopE
+- **Taxation**:https://youtu.be/7Qtr_vA3Prw
+- **Introduction to Civil Engineering**: https://youtu.be/LCyZFTEyNoo
+- **Building Materials**:https://youtu.be/a1cQcIJfjPw
+- **Construction**:https://youtu.be/mbwuj58UEPg
+- **Surveying**:https://youtu.be/VD1ltgO_iaw
+- **Engineering Technology**:https://youtu.be/5zDcHJn4oj0
 
 ### Image-Credits
--**Chemistry-Course**: https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcTCpqjYfnERcAZCS_kHZyfyIXhutGCZo37zoxPlhvU9VjmmO32I
--**Physics-Course**: https://bike.bikegremlin.com/3447/theory_vs_practice/
--**Computer-Course**:https://cornershopcreative.com/blog/getting-started-accessibility/
--**Economics-Course**: https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcTXzSJC2iodq76AcbhPjeguB1qE1PRU_lAAkHhvVJPC0a2AkSu1
--**Civil-Engineering-Course**: https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcSTerS7gmhN9LHPiqBeGKmeZ-Cwx-m9vvHENdbtQJOTvyzQRH4e
+- **Chemistry-Course**: https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcTCpqjYfnERcAZCS_kHZyfyIXhutGCZo37zoxPlhvU9VjmmO32I
+- **Physics-Course**: https://bike.bikegremlin.com/3447/theory_vs_practice/
+- **Computer-Course**:https://cornershopcreative.com/blog/getting-started-accessibility/
+- **Economics-Course**: https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcTXzSJC2iodq76AcbhPjeguB1qE1PRU_lAAkHhvVJPC0a2AkSu1
+- **Civil-Engineering-Course**: https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcSTerS7gmhN9LHPiqBeGKmeZ-Cwx-m9vvHENdbtQJOTvyzQRH4e
