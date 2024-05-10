@@ -103,11 +103,11 @@ The choice of a blue, grey, and white colour scheme for the Twisties Learning Pl
 
 The Waterfall Iterative Development Life Cycle (WIDLC) methodology was selected to develop the Twisties Learning Platform. The WIDLC methodology follows a sequential, step-by-step process, with each phase building upon the results of the previous phase. However, it incorporates iterative elements, allowing for feedback and adjustments throughout the development lifecycle. It offered a structured approach to developing the Twisties Learning Platform, allowing for thorough planning, design, implementation, testing, deployment, and maintenance.  This methodology was selected because the project requirements were well-defined, stable, and unlikely to change significantly throughout development.
 
-## Implementation
+### Implementation
 
 HTML, CSS, jQuery and Bootstrap were used extensively in the development of the Twisties Learning Platform to create a visually appealing and user-friendly interface. HTML was used to structure the platform's content, defining the layout and elements such as headings, paragraphs, buttons, and forms. CSS was utilised to style the HTML elements, including fonts, colours, spacing, and layout, ensuring a cohesive and consistent design across all pages. Bootstrap, a popular front-end framework, played a crucial role in the implementation by providing pre-designed components and utilities for responsive and mobile-first development. Bootstrap's grid system facilitated the creation of responsive layouts, ensuring the platform is accessible and optimised for various screen sizes and devices. Additionally, Bootstrap's predefined CSS classes were utilised to enhance the visual appearance of navigation bars, buttons, cards, and modals, contributing to a polished and professional user experience.JavaScript played an instrumental role in adding interactivity and functionality to the platform. JavaScript was used to implement dynamic behaviour, such as form validation, DOM manipulation, event handling, and modal popups. Together, these technologies enabled the creation of a seamless learning environment, allowing users to explore courses, search for definitions, view testimonials, and interact with educational content effortlessly. The integration of HTML, CSS, JavaScript, jQuery, and Bootstrap resulted in a cohesive and user-friendly platform that meets the needs of learners and educators alike.
 
-## Features & Functions Implemented
+### Features & Functions Implemented
 
 #### Dictionary Functionality
 - The `searchWord()` function fetches dictionary data from an API based on user input and displays the results in a modal dialogue.
@@ -142,7 +142,7 @@ HTML, CSS, jQuery and Bootstrap were used extensively in the development of the 
 - Event listeners handle user interactions, such as clicking on course topics or the "Take Quiz" button.
 - jQuery is used for functionalities like dynamically setting the course title in the completion modal.
 
-## Quiz Implementation Details
+### Quiz Implementation Details
 
 #### Retrieving URL Parameters
 A JavaScript function `getParameterByName(name, url)` is implemented to retrieve the value of a URL parameter by name. It uses regular expressions to parse the URL and extract the desired parameter.
@@ -193,7 +193,7 @@ Manual testing is deployed in scenarios such as user interface testing, especial
 
 In practice, a combination of both automated and manual testing is often employed to leverage the strengths of each approach and ensure comprehensive test coverage. For the purpose of this project Manual testing was deployed testing the systems Usability and functionality to verify and validate that the website is fit for use and purpose.
 
-## Usability Testing
+### Usability Testing
 The site demonstrates adherence to Norman and Nielsen's design principles of:
 
 **Visibility**:
@@ -227,7 +227,7 @@ The site demonstrates adherence to Norman and Nielsen's design principles of:
 **Aesthetic and Minimalist Design**:
 - A clean and minimalist design approach, evident in the consistent layout, typography, and white space, contributes to an aesthetically pleasing user interface.
 
-## Functional Testing (Manual Test Result)
+### Functional Testing (Manual Test Result)
 #### Home Page
 **Dictionary**:
    - [x] Verify that the dictionary feature is prominently displayed on the Home page. (Pass)
@@ -280,7 +280,7 @@ The site demonstrates adherence to Norman and Nielsen's design principles of:
    - [x] Test progress indicators. (Pass)
    
 
-## Testing HTML with W3C Markup Validation Service
+### Testing HTML with W3C Markup Validation Service
 
 **Accessing the Validator:**- Navigate to the [W3C Markup Validation Service/Jigsaw](https://validator.w3.org/)(https://jigsaw.w3.org/css-validator/validator).
 
@@ -305,11 +305,11 @@ The site demonstrates adherence to Norman and Nielsen's design principles of:
 
 ![Solution for above](images/cssforiframe.png)
 
-## Other Errors
+### Other Errors
 ![Stray Div Tag](images/StrayDiv.png)
 ![No issues with CSS](images/cssValidation.png)
 
-## Testing JavaScript on JsLint (Test Result)
+### Testing JavaScript on JsLint (Test Result)
 ![No issues with CSS](images/JSLint.png)
 
 # DEPLOYMENT
@@ -328,7 +328,7 @@ The website was deployed on Git pages with the following steps (Assuming you are
 
 # CREDITS
 
-## Code Credits
+### Code Credits
 
 - **Code Institute**: Acknowledgement for the training and utilization of `Code-Institute-Org/ci-full-template`.
 - **Stack Overflow**: Recognized for providing invaluable assistance during troubleshooting sessions, offering insights on bug fixes.
@@ -339,7 +339,7 @@ The website was deployed on Git pages with the following steps (Assuming you are
 - **Bootstrap Documentation for Watched List Items Styles**: Utilized the styles provided in the Bootstrap documentation for creating watched list items `https://getbootstrap.com/docs/5.0/components/list-group/`.
 - **HTML Script Injection Tutorial**: Consulted for guidance on injecting HTML from JavaScript into the project `https://www.w3schools.com/html/html_scripts.asp`.
 
-## Video-Credits
+### Video-Credits
 - **Introduction to Physics Video**: https://youtu.be/b1t41Q3xRM8
 - **Mechnics Video**:https://youtu.be/aD58U3Ib0ng
 - **Themodynamics Video**:https://youtu.be/NyOYW07-L5g
@@ -371,7 +371,7 @@ The website was deployed on Git pages with the following steps (Assuming you are
 - **Surveying**:https://youtu.be/VD1ltgO_iaw
 - **Engineering Technology**:https://youtu.be/5zDcHJn4oj0
 
-## Image-Credits
+### Image-Credits
 - **Chemistry-Course**: https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcTCpqjYfnERcAZCS_kHZyfyIXhutGCZo37zoxPlhvU9VjmmO32I
 - **Physics-Course**: https://bike.bikegremlin.com/3447/theory_vs_practice/
 - **Computer-Course**:https://cornershopcreative.com/blog/getting-started-accessibility/
