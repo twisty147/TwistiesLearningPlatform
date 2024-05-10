@@ -9,6 +9,8 @@
   <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
   <!-- Custom CSS -->
   <link rel="stylesheet" href="css/styles.css">
+  <!-- Fontawesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <!-- Favicon -->
   <link rel="icon" type="image/png" href="images/favicon.ico">
 </head>
@@ -46,7 +48,7 @@
   <!-- Navbar End -->
 
   <!-- Course Details -->
-  <main>
+  <main class="mb-5">
     <div class="container mt-5">
       <div class="row">
         <div class="col-md-12">
@@ -76,11 +78,18 @@
   </main>
 
   <!-- Footer -->
-  <footer class="bg-dark text-light text-center py-4 fixed-bottom">
-    <div class="container">
-      <p>&copy; 2024 Twisties Learning Platform. All rights reserved.</p>
+  <footer class="bg-dark text-light text-center py-4">
+    <div class="container d-flex justify-content-between align-items-center">
+      <p class="m-0">&copy; 2024 Twisties Learning Platform. All rights reserved.</p>
+      <div class="social-icons">
+        <a href="https://www.instagram.com" class="fa fa-instagram" title="Instagram" target="_blank"
+          rel="noopener"></a>
+        <a href="https://www.linkedin.com" class="fa fa-linkedin" title="LinkedIn" target="_blank" rel="noopener"></a>
+        <a href="https://www.facebook.com" class="fa fa-facebook" title="Facebook" target="_blank" rel="noopener"></a>
+      </div>
     </div>
   </footer>
+  <!-- Footer End-->
 
   <!-- Completion Modal -->
   <div class="modal fade" id="completionModal" tabindex="-1" role="dialog" aria-labelledby="completionModalLabel"
